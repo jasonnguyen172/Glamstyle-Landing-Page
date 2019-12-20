@@ -1,2 +1,2 @@
 # Glamstyle-Landing-Page
-Landing Page for Glamstyle project in Qcoop solution company
+A Landing page for Glamstyle project in Qcoop solution company
