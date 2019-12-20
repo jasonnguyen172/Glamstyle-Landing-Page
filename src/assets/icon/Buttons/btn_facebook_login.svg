@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Buttons/btn_facebook_login</title>
+    <desc>Created with Sketch.</desc>
+    <g id="iGlam" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Đăng-nhập" transform="translate(-913.000000, -616.000000)">
+            <g id="Login-2" transform="translate(214.000000, 174.000000)">
+                <g id="Group-12" transform="translate(615.000000, 155.000000)">
+                    <g id="Group-10" transform="translate(61.000000, 248.000000)">
+                        <g id="Group-6" transform="translate(13.000000, 40.000000)">
+                            <g id="Buttons/btn_facebook_login" transform="translate(11.000000, 0.000000)">
+                                <circle id="Oval" stroke="#B7B1B8" fill-rule="nonzero" cx="40" cy="40" r="40"></circle>
+                                <g id="facebook" fill-rule="evenodd" transform="translate(33.000000, 25.000000)" fill="#392E3B">
+                                    <path d="M3.98013617,29.9811638 L4.00052962,17.1234425 L0.917055482,17.1234425 C0.51633628,17.1234425 0.191097235,16.7724205 0.189553508,16.3383081 L0.174766222,12.1937311 C0.173222494,11.7572421 0.499436524,11.4025232 0.902349445,11.4025232 L3.98021742,11.4025232 L3.98021742,7.39780929 C3.98021742,2.75037653 6.60024826,0.219814181 10.4271491,0.219814181 L13.5674162,0.219814181 C13.9691916,0.219814181 14.2949994,0.572684597 14.2949994,1.00802934 L14.2949994,4.50275795 C14.2949994,4.93792665 13.9694354,5.29070905 13.5678225,5.29097311 L11.6406816,5.29194132 C9.55949295,5.29194132 9.15649878,6.3633154 9.15649878,7.9356088 L9.15649878,11.4026112 L13.7295889,11.4026112 C14.1653263,11.4026112 14.5034027,11.8148068 14.4520534,12.283599 L13.9986037,16.428176 C13.9552169,16.8247922 13.6447651,17.1236186 13.2761392,17.1236186 L9.17689223,17.1236186 L9.15649878,29.9813399 L3.98013617,29.9811638 Z" id="Path" fill-rule="nonzero"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

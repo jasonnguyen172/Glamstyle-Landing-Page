@@ -1,0 +1,667 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+// @import "~bootstrap-timepicker/css/bootstrap-timepicker.min.css";
+
+// @import "~@fortawesome/fontawesome-free/css/all.css";
+// @import '~bootstrap/scss/functions';
+// @import '~bootstrap/scss/variables';
+// @import '~bootstrap/scss/mixins/breakpoints';
+// @import '~snazzy-info-window/dist/snazzy-info-window.scss';
+
+// @import './app/theme.scss';
+// @include mat-core();
+// @include angular-material-theme($glamstyle-theme);
+
+@font-face {
+  font-family: 'UTM Avo';
+  src: url('assets/fonts/UTM-Avo.ttf');
+}
+
+
+@font-face {
+  font-family: 'UTM Avo Bold';
+  src: url('assets/fonts/UTM-AvoBold.ttf');
+}
+
+
+@font-face {
+  font-family: 'UTM Avo Bold Italic';
+  src: url('assets/fonts/UTM-AvoBold-Italic.ttf');
+}
+
+
+@font-face {
+  font-family: 'UTM Avo Italic';
+  src: url('assets/fonts/UTM-AvoItalic.ttf');
+}
+
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic-Bold';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-Bold.ttf');
+}
+
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic-BoldIta';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-BoldIta.ttf');
+}
+
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic-Book';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-Book.ttf');
+}
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-Book.ttf');
+}
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic-BookItalic';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-BookItalic.ttf');
+}
+
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic-ExLtItX';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-ExLtItX.ttf');
+}
+
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic-ExtLt';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-ExtLt.ttf');
+}
+
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic-Medium';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-Medium.ttf');
+}
+
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic-SemBd';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-SemBd.ttf');
+}
+
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic-SmBdIt';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-SmBdIt.ttf');
+}
+
+@font-face {
+  font-family: 'iCielAvantGardeGothic-MedIta';
+  src: url('assets/fonts/ice/iCielAvantGardeGothic-MedIta.ttf');
+}
+
+
+@media  (max-width: 374.98px){
+
+}
+@media  (min-width: 375px) and (max-width: 425px){
+
+}
+
+@media (min-width: 425.01px) and (max-width: 515.98px) {
+
+}
+
+@media (min-width: 516px) and (max-width: 575.98px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+
+}
+
+
+
+@media (min-width: 1600px) and (max-width: 1900px) {
+
+}
+
+
+@media (min-width: 1900.01px) {
+
+}
+
+// // set animation
+// @keyframes modal-b-fade {
+//   from {
+//       opacity: 0;
+//   }
+//   to {
+//       opacity: 0.5;
+//   }
+// }
+
+// @keyframes modal-fade {
+//   from {
+//       top: -100px;
+//       opacity: 0;
+//   }
+//   to {
+//       top: 0;
+//       opacity: 1;
+//   }
+// }
+
+// .modal-backdrop {
+//   opacity: 0.5;
+//   transition: all .5s ease-in-out;
+//   animation: ease-in-out .5s modal-b-fade;
+// }
+
+// .modal {
+//   top: -100px;
+//   transition: all .5s ease-in-out;
+//   animation: ease-in-out .5s modal-fade;
+
+//   &.show {
+//       top: 0;
+//   }
+// }
+
+// body::-webkit-scrollbar, html::-webkit-scrollbar {
+// 	width: 2px;
+// 	background-color: #F5F5F5;
+// }
+
+// .si-content-wrapper{
+//   padding: 0;
+// }
+// .popover{
+//   position: relative !important;
+//   max-width: 96% !important;
+//   border: none;
+//   // left: -16px !important;
+//   transform: none !important;
+// }
+
+// .btn:disabled{
+//   opacity: .4 !important;
+// }
+
+// button{
+//   outline: none !important;
+//   outline: transparent;
+// }
+
+// .bootstrap-timepicker-widget table td a[data-action="incrementHour"] {
+//     background-image: url(assets/icon/angle-up-solid.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: 20px 20px;
+// }
+// .bootstrap-timepicker-widget table td a[data-action="decrementHour"] {
+//     background-image: url(assets/icon/angle-down-solid.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: 20px 20px;
+// }
+
+// .bootstrap-timepicker-widget table td a[data-action="incrementMinute"] {
+//     background-image: url(assets/icon/angle-up-solid.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: 20px 20px;
+// }
+// .bootstrap-timepicker-widget table td a[data-action="decrementMinute"] {
+//     background-image: url(assets/icon/angle-down-solid.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: 20px 20px;
+// }
+
+// .bootstrap-timepicker-widget table td a[data-action="toggleMeridian"] {
+//     background-image: url(assets/icon/sync-alt-solid.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: 14px 15px;
+// }
+
+// .navbar{
+// }
+// .height-inherit {
+//   height: inherit !important;
+// }
+
+// .bootstrap-timepicker-widget table td input {
+//     width: 35px !important;
+// }
+
+// // ngx avatar
+// ngx-avatar{
+//   position: relative;
+//   img{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//   }
+// }
+// .avatar-name-in-user-info{
+//   .avatar-content{
+//     display: flex;
+//   }
+
+// }
+
+// .dropdown:hover>.dropdown-menu {
+//   display: block;
+//  }
+
+// body {
+//   -webkit-font-smoothing: antialiased;
+// }
+// .cdk-visually-hidden {
+//   position: absolute;
+//   width: 1px;
+//   height: 1px;
+//   margin: -1px;
+//   padding: 0;
+//   overflow: hidden;
+//   border: 0;
+//   outline: 0;
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   clip: rect(0 0 0 0)
+// }
+
+// .modal-content-custom {
+//   flex-direction: inherit;
+// }
+
+// .cdk-global-overlay-wrapper,
+// .cdk-overlay-container {
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   pointer-events: none
+// }
+
+// .tooltip-inner{
+//   max-width: 400px;
+// }
+
+// .cdk-overlay-container {
+//   position: fixed;
+//   z-index: 1000
+// }
+
+// .cdk-overlay-container:empty {
+//   display: none
+// }
+
+// .cdk-global-overlay-wrapper {
+//   position: absolute;
+//   z-index: 1000;
+//   display: flex
+// }
+
+// .cdk-overlay-pane {
+//   position: absolute;
+//   z-index: 99999;
+//   display: flex;
+//   box-sizing: border-box;
+//   max-width: 100%;
+//   max-height: 100%;
+//   pointer-events: auto
+// }
+
+// .cdk-overlay-backdrop {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   z-index: 1000;
+//   opacity: 0;
+//   transition: opacity .4s cubic-bezier(.25, .8, .25, 1);
+//   pointer-events: auto;
+//   -webkit-tap-highlight-color: transparent
+// }
+
+// .cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
+//   opacity: 1
+// }
+
+// @media screen and (-ms-high-contrast:active) {
+//   .cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
+//       opacity: .6
+//   }
+//   .mat-badge-small .mat-badge-content {
+//       border-radius: 0;
+//       outline: solid 1px
+//   }
+// }
+
+// .cdk-overlay-dark-backdrop {
+//   background: rgba(0, 0, 0, .32)
+// }
+
+// .cdk-overlay-transparent-backdrop,
+// .cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing {
+//   opacity: 0
+// }
+
+// .cdk-overlay-connected-position-bounding-box {
+//   position: absolute;
+//   z-index: 1000;
+//   display: flex;
+//   flex-direction: column;
+//   min-width: 1px;
+//   min-height: 1px
+// }
+
+// .cdk-global-scrollblock {
+//   position: fixed;
+//   width: 100%;
+//   overflow-y: scroll
+// }
+
+// .dropdown-handle-account .cdk-virtual-scroll-content-wrapper {
+//   contain: unset !important;
+// }
+
+// // .search-menu-filter .cdk-virtual-scroll-content-wrapper {
+// //   width: 100%;
+// // }
+
+// em {
+//   color: #4dd55c;
+//   font-size: 14px;
+//   font-family: 'Proxima-Nova-Regular', sans-serif;
+//   line-height: 17px;
+// }
+
+// // .feed-container .cdk-virtual-scroll-content-wrapper {
+// //   width: 100%;
+// // }
+
+// // custom all modal in web //
+// .modal-xxl {
+//   .modal-dialog-centered {
+//     width: 65% !important;
+//     max-width: 65% !important;
+//   }
+// }
+// .cursor-pointer {
+//   cursor: pointer;
+// }
+// .navbar {
+//   .nav-item {
+//     display: block;
+//     margin-left: 60px;
+//     color: #58495b !important;
+//     font-weight: bold;
+//     font-size: 14px;
+//     font-family: HelveticaNeue;
+
+//   }
+// }
+
+// .dropdown-toggle::after {
+//   display: none !important;
+// }
+// // modal in datail page //
+// .modal-xl {
+//   .modal-dialog-centered {
+//     width: 65% !important;
+//     max-width: 65% !important;
+//   }
+// }
+
+// .modal-dialog-centered {
+//   width: 65% !important;
+//   max-width: 600px !important;
+// }
+
+// ////////////////////////////
+
+// // custom calendar booking //
+// .ngb-dp-header {
+//   background-color: #fff !important;
+
+//   select.custom-select {
+//     color: #493a4d;
+//     font-weight: normal;
+//     font-size: 16px;
+//     font-family: 'iCielAvantGardeGothic-Medium' !important;
+//     font-style: normal;
+//     font-stretch: normal;
+//     line-height: normal;
+//     letter-spacing: normal;
+//     text-align: center !important;
+//     text-align-last: center !important;
+//     background: #fff;
+//     border: 0;
+//     box-shadow: none;
+//     -webkit-appearance: none;
+//     -moz-appearance: none;
+//     appearance: none
+//   }
+
+//   select.custom-select::-ms-expand {
+//     display: none;
+//   }
+
+//   .btn-link {
+//     color: #000 !important;
+//   }
+// }
+
+// .ngb-dp-month {
+//   width: 100% !important;
+
+//   .ngb-dp-week {
+//     height: 46px !important;
+//     margin-top: 8px;
+//     font-family: 'iCielAvantGardeGothic-Medium' !important;
+//     background-color: #fff !important;
+//     &:last-child{
+//       margin-bottom: 10px;
+//     }
+//     .ngb-dp-today{
+//       .btn-light {
+//         width: 45px;
+//         height: 45px;
+//         color: #493a4d;
+//         line-height: 45px;
+//         background-color: #f3f3f3 !important;
+//         border-radius: 50%;
+//       }
+//       .bg-primary {
+//         color: #212529 !important;
+//         color: #ffffff !important;
+//         background-color: #70396d !important;
+//         border: 1px solid #70396d !important;
+//         outline: 0 !important;
+//       }
+//     }
+//   }
+
+//   .ngb-dp-weekday {
+//     width: -webkit-fill-available;
+//     color: #493a4d !important;
+//     font-size: 16px !important;
+//     font-family: 'iCielAvantGardeGothic-Medium' !important;
+//     font-style: normal !important;
+//   }
+
+//   .ngb-dp-day {
+//     width: -webkit-fill-available;
+//     color: #493a4d !important;
+//     font-weight: bold !important;
+//     font-size: 16px !important;
+//     font-family: InterUI;
+//     outline: none;
+//     .btn-light {
+//       width: 45px;
+//       height: 45px;
+//       margin: auto !important;
+//       color: #a59e9e;
+//       line-height: 45px;
+//       background-color: #f3f3f3 !important;
+//       border-radius: 50%;
+//     }
+
+//     .bg-primary {
+//       background-color: #70396d !important;
+//       border: 0 !important;
+//       outline: 0 !important;
+//     }
+//     .active {
+//       color: #ffffff;
+//       font-size: 14px;
+//       background-color: #70396d !important;
+//       border: 0 !important;
+//       border-color: white !important;
+//       outline: 0 !important;
+//     }
+
+//   }
+// }
+
+// ///////////////////////////////////////
+// .custome-pad-top-map {
+//     width: 220px !important;
+//     max-width: 300px !important;
+//     padding: 0 !important;
+// }
+// .custom-pad-bottom-map {
+//     max-width: 220px !important;
+//     overflow: hidden !important;
+//     &::-webkit-scrollbar {
+//       width: 0;
+//     }
+// }
+
+// .gm-style {
+//   .gm-style-iw-c {
+//     .container-left{
+//       float: left;
+//       width: 75%;
+//       padding: 12px;
+//     }
+//     .container-right{
+//       float: right;
+//       width: 25%;
+//       height: 104px;
+//       line-height: 104px;
+//       text-align: center;
+//       background-color: #70396d;
+//     }
+//   }
+//   .gm-ui-hover-effect{
+//     display: none !important;
+//   }
+// }
+
+// .view-link {
+//   display:none !important;
+// }
+
+// // custom in mobile screen //
+// @include media-breakpoint-down(xs) {
+//   .modal-xxl {
+//     .modal-dialog-centered {
+//       width: 100% !important;
+//       max-width: 100% !important;
+//       height: 100% !important;
+//       max-height: 100% !important;
+//       margin: 0 !important;
+
+//       .modal-content {
+//         height: 100% !important;
+//         border: 0;
+//         border-radius: unset !important;
+//       }
+//     }
+//   }
+
+//   .ngb-dp-month {
+//     .ngb-dp-week {
+//       height: 32px !important;
+//     }
+//   }
+
+// }
+
+// @include media-breakpoint-down(sm) {
+//   .modal-xxl {
+//     .modal-dialog-centered {
+//       width: 100% !important;
+//       max-width: 100% !important;
+//       height: 100% !important;
+//       max-height: 100% !important;
+//       margin: 0 !important;
+
+//       .modal-content {
+//         height: 100% !important;
+//         border: 0;
+//         border-radius: unset !important;
+//       }
+//     }
+//   }
+
+//   .ngb-dp-month {
+//     .ngb-dp-week {
+//       height: 32px !important;
+//     }
+//   }
+// }
+
+// @include media-breakpoint-down(md) {
+//   .modal-xxl {
+//     .modal-dialog-centered {
+//       width: 100% !important;
+//       max-width: 100% !important;
+//       height: 100% !important;
+//       max-height: 100% !important;
+//       margin: 0 !important;
+
+//       .modal-content {
+//         height: 100% !important;
+//         border: 0;
+//         border-radius: unset !important;
+//       }
+//     }
+//   }
+
+//   .ngb-dp-month {
+//     .ngb-dp-week {
+//       height: 32px !important;
+//     }
+//   }
+// }
+
+// @include media-breakpoint-down(lg) {}
+
+// .mat-accent .mat-pseudo-checkbox-checked, .mat-accent .mat-pseudo-checkbox-indeterminate, .mat-pseudo-checkbox-checked, .mat-pseudo-checkbox-indeterminate{
+//   background: #f15a29 !important;
+// }
+
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

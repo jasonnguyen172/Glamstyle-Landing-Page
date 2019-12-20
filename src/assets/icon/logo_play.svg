@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="38px" viewBox="0 0 34 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="38.9125982%" id="linearGradient-1">
+            <stop stop-color="#FBDA09" offset="0%"></stop>
+            <stop stop-color="#FFBC00" offset="100%"></stop>
+        </linearGradient>
+        <path d="M14.9008881,3.52588244 C16.0601248,1.49199874 17.9389324,1.4907464 19.0989166,3.52588244 L35.5094273,32.3173278 C36.6686977,34.3512115 35.7031725,36 33.3720584,36 L0.628283788,36 C-1.71142284,36 -2.66909655,34.3524638 -1.50914604,32.3173278 L14.9008881,3.52588244 Z" id="path-2"></path>
+        <linearGradient x1="0%" y1="58.4755255%" x2="69.3064856%" y2="39.0830098%" id="linearGradient-4">
+            <stop stop-color="#01E2FF" offset="0%"></stop>
+            <stop stop-color="#01C4FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="20.2810876%" y1="20.1019903%" x2="83.820166%" y2="83.6214476%" id="linearGradient-5">
+            <stop stop-color="#28D781" offset="0%"></stop>
+            <stop stop-color="#02F076" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="74.4881466%" y1="17.4301299%" x2="10.1079427%" y2="91.1838038%" id="linearGradient-6">
+            <stop stop-color="#F2414E" offset="0%"></stop>
+            <stop stop-color="#E02554" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer-Copy" transform="translate(-1191.000000, -67.000000)">
+            <g id="Playstore" transform="translate(1176.000000, 57.000000)">
+                <g id="logo_play" transform="translate(15.000000, 10.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="yellow" fill="url(#linearGradient-1)" transform="translate(17.000000, 19.000000) rotate(-270.000000) translate(-17.000000, -19.000000) " xlink:href="#path-2"></use>
+                    <polygon id="blue" fill="url(#linearGradient-4)" mask="url(#mask-3)" points="0.242283877 0 19 18.6317902 0 38"></polygon>
+                    <polygon id="green" fill="url(#linearGradient-5)" mask="url(#mask-3)" points="-4 -4 18.3539193 18 25 11.7252124"></polygon>
+                    <polygon id="red" fill="url(#linearGradient-6)" mask="url(#mask-3)" points="18.6231008 19 29 29.5 -2 40"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

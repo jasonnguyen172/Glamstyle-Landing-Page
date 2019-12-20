@@ -1,0 +1,2736 @@
+.overlay-full-screen{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    .dialog{
+        width: 480px;
+        height: 480px;
+        align-self: center;
+        align-items: center;
+        position: fixed;
+        top: 112px;
+        left: 40%;
+        background: white;
+        border: 1px solid #3f3f3f;
+    }
+}
+@media (max-width: 374.98px) {
+
+    .container-a {
+        // top: 40px !important;
+
+    }
+    .navbar {
+        .navbar-brand {    
+            .logo {
+                width: 120px !important;
+            }
+        }
+    }
+    .sec-1 {
+
+        .slogan-block {
+            margin-top: 72px;
+
+            .slogan {
+
+                .title {
+
+                    font-size: 26px !important;
+
+
+                }
+
+                .content {
+
+                    font-size: 16px !important;
+
+
+                }
+
+                .btn-sigin {
+                    font-size: 16px !important;
+                }
+            }
+
+        }
+
+        .header {
+
+            .title {
+
+                font-size: 26px !important;
+
+            }
+
+            .content-block {
+
+
+                .content {
+                    padding-right: 0px !important;
+                    padding-left: 0px !important;
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 16px;
+
+                }
+            }
+
+        }
+
+
+        .body-mobile {
+            align-items: center;
+            margin-top: 24px;
+            margin-bottom: 72px;
+
+            .box {
+                margin-top: 24px;
+                border: 2px solid #37173d;
+                width: 128px;
+                height: 128px;
+                text-align: center;
+                padding-top: 21px;
+                position: relative;
+                background: white;
+                left: 2% !important;
+
+                span {
+                    position: relative;
+                    top: 16px;
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 20px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: black;
+                }
+            }
+        }
+    }
+
+
+
+    .sec-2 {
+
+        .header {
+            .title {
+                margin-top: 96px;
+
+                span {
+
+                    font-size: 26px !important;
+
+                }
+            }
+
+        }
+
+        .body {
+            margin-top: 60px;
+            margin-bottom: 72px;
+
+            .content {
+
+                margin-top: 32px;
+
+                span {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+
+
+    .sec-3 {
+        .block-left {
+            margin-top: 72px !important;
+            margin-bottom: 96px !important;
+
+            .water {
+                width: 262px;
+                height: 239px !important;
+                margin-left: 0px;
+            }
+
+            .frame {
+                height: 283px !important;
+                width: 142px;
+                position: absolute;
+                left: 79px !important;
+                top: -20px;
+            }
+
+            .image {
+                width: 132px;
+                height: 273px !important;
+                position: absolute;
+                left: 84px !important;
+                top: -15px !important;
+            }
+        }
+    }
+
+    .sec-5 {
+        .button-block {
+            .btn-primary {
+                font-size: 14px !important;
+            }
+
+            .btn-secondary {
+                font-size: 14px !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .navbar {
+        .navbar-brand {    
+            .logo {
+                width: 120px !important;
+            }
+        }
+    }
+    .sec-1 {
+
+        .slogan-block {
+            margin-top: 72px;
+
+            .slogan {
+
+                .title {
+
+                    font-size: 26px !important;
+
+
+                }
+
+                .content {
+
+                    font-size: 16px !important;
+
+
+                }
+
+                .btn-sigin {
+                    font-size: 16px !important;
+                }
+            }
+
+        }
+
+        .header {
+
+            .title {
+
+                font-size: 26px !important;
+
+            }
+
+            .content-block {
+
+
+                .content {
+                    padding-right: 0px !important;
+                    padding-left: 0px !important;
+                    font-size: 16px !important;
+
+                }
+            }
+
+        }
+
+        .body-mobile {
+            align-items: center;
+            margin-top: 24px;
+            margin-bottom: 72px;
+
+            .box {
+                margin-top: 24px;
+                border: 2px solid #37173d;
+                width: 128px;
+                height: 128px;
+                text-align: center;
+                padding-top: 21px;
+                position: relative;
+                background: white;
+                left: 8% !important;
+
+                span {
+                    position: relative;
+                    top: 16px;
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 16px !important;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: black;
+                }
+            }
+        }
+    }
+
+
+    .sec-2 {
+
+        .header {
+            .title {
+                margin-top: 96px;
+
+                span {
+
+                    font-size: 26px !important;
+
+                }
+            }
+
+        }
+
+        .body {
+            margin-top: 60px;
+            margin-bottom: 72px;
+
+            .content {
+
+                margin-top: 32px;
+
+                span {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+
+    .sec-3 {
+        .block-left {
+            margin-top: 72px !important;
+            margin-bottom: 96px !important;
+
+            .water {
+                width: 262px;
+                height: 239px !important;
+                margin-left: 48px;
+            }
+
+            .frame {
+                height: 283px !important;
+                width: 142px;
+                position: absolute;
+                left: 127px !important;
+                top: -20px;
+            }
+
+            .image {
+                width: 132px;
+                height: 273px !important;
+                position: absolute;
+                left: 132px !important;
+                top: -15px !important;
+            }
+        }
+    }
+
+    .sec-5 {
+        .button-block {
+            .btn-primary {
+                font-size: 14px !important;
+            }
+
+            .btn-secondary {
+                padding-right: 34px !important;
+                padding-left: 34px !important;
+                font-size: 14px !important;
+            }
+        }
+    }
+
+
+    .sec-6 {
+        margin-bottom: 64px;
+    
+        .header {
+            .title {
+         
+                margin-top: 96px;
+    
+                span {
+                    font-size: 26px !important;
+                    
+                }
+            }
+    
+        }
+    
+        .body {
+            margin-top: 26px;
+    
+            .col-right {
+                padding-right: 44px;
+            }
+    
+            .content {
+                
+                margin-bottom: 32px;
+    
+                span {
+                    
+                    font-size: 14px !important;
+                   
+                }
+            }
+        }
+    
+        .form {
+            width: 100%;
+            margin-left: 24px;
+    
+            .title {
+                span {
+                    
+                    font-size: 14px !important;
+                   
+                }
+            }
+    
+            .one {
+                margin-top: 16px;
+                margin-bottom: 16px;
+    
+                input {
+                    font-size: 14px !important;
+                }
+            }
+    
+            .two {
+                margin-top: 16px;
+                margin-bottom: 16px;
+    
+                .space {
+                    margin-right: 0px;
+                    max-height: 400px;
+                    overflow: scroll;
+    
+                    &::-webkit-scrollbar {
+                        width: 0px;
+                        height: 0px;
+                    }
+    
+                    &::-webkit-scrollbar-thumb {
+                        background-color: #1c0920;
+                        border-radius: 1px;
+                    }
+                }
+    
+                .col-2-input {
+                    margin-left: -16px;
+                }
+    
+                input {
+                    font-size: 14px !important;
+                    
+                }
+    
+    
+                .img-one {
+                    position: absolute;
+                    z-index: 1;
+                    right: 20px;
+                    top: 18px;
+    
+                }
+    
+                .img-two {
+                    position: absolute;
+                    z-index: 1;
+                    right: 20px;
+                    top: 18px;
+                }
+            }
+    
+            
+            .one-right-mobile {
+                margin-top: 16px;
+    
+                // margin-bottom: 16px;
+                input {
+                    font-size: 14px !important;
+                    
+                }
+    
+                .img-one {
+                    
+                }
+    
+                .dropdown-full {
+                    
+                }
+            }
+    
+            .two-right-mobile {
+                margin-top: 16px;
+                margin-bottom: 16px;
+    
+                input {
+                    font-size: 14px !important;
+                    
+                }
+    
+                .input-2 {
+                    margin-left: -18px;
+                }
+            }
+    
+            .sub-content {
+                text-align: justify;
+                line-height: 1;
+                span {
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 12px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #6b6b6b;
+                }
+            }
+    
+            .btn-sign {
+                margin-top: 24px;
+                width: 100%;
+    
+                button {
+                    padding: 8px;
+                    width: 100%;
+                    border-radius: 3px;
+                    background-color: #fc4945;
+                    font-family: iCielAvantGardeGothic-Book;
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #ffffff;
+                    border: none !important;
+                    outline: none !important;
+                }
+    
+                button:hover {
+                    background: #70396d;
+                }
+            }
+    
+    
+        }
+    
+        .error-content {
+            text-align: center;
+            margin-bottom: 24px;
+    
+            span {
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #fc4945;
+            }
+    
+        }
+    }
+    
+    
+}
+
+@media (min-width: 425.01px) and (max-width: 515.98px) {
+    .navbar {
+        .navbar-brand {    
+            .logo {
+                width: 120px !important;
+            }
+        }
+    }
+    .sec-1 {
+        .body-mobile {
+            align-items: center;
+            margin-top: 24px;
+            margin-bottom: 72px;
+
+            .box {
+                margin-top: 24px;
+                border: 2px solid #37173d;
+                width: 128px;
+                height: 128px;
+                text-align: center;
+                padding-top: 21px;
+                position: relative;
+                background: white;
+                left: 20% !important;
+
+                span {
+                    position: relative;
+                    top: 16px;
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 20px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .sec-3 {
+        align-items: center;
+
+        .block-left {
+            margin-top: 72px !important;
+            margin-bottom: 96px !important;
+
+            .water {
+                width: 262px;
+                height: 239px !important;
+                margin-left: 82px;
+            }
+
+            .frame {
+                height: 283px !important;
+                width: 142px;
+                position: absolute;
+                left: 160px !important;
+                top: -20px;
+            }
+
+            .image {
+                width: 132px;
+                height: 273px !important;
+                position: absolute;
+                left: 165px !important;
+                top: -15px !important;
+            }
+        }
+        .space-header {
+            margin-top: 90px;
+            margin-bottom: 32px;
+
+            span {
+               
+                font-size: 14px !important;
+                
+            }
+        }
+
+        .space-title {
+            margin-bottom: 32px;
+
+            span {
+                
+                font-size: 24px !important;
+                
+            }
+
+        }
+
+        .space-content {
+            margin-bottom: 32px;
+            text-align: justify;
+            width: 92%;
+            line-height: 24px;
+
+            span {
+                
+                font-size: 16px !important;
+                
+            }
+        }
+
+    }
+
+
+    .sec-5 {
+        .button-block {
+            .btn-primary {
+                font-size: 14px !important;
+            }
+
+            .btn-secondary {
+                font-size: 14px !important;
+            }
+        }
+    }
+    .sec-6{
+        .form{
+            .two{
+                input{
+                    width: 96% !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 516px) and (max-width: 575.98px) {
+    .sec-1 {
+        .slogan-block {
+            margin-top: 72px;
+
+            .slogan {
+                .space {
+                    margin-top: 8px;
+                    margin-bottom: 40px;
+                    max-width: 100%;
+                }
+
+                .title {
+                    font-family: "iCielAvantGardeGothic-SemBd";
+                    font-size: 36px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: black;
+
+                }
+
+                .content {
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: black;
+
+                }
+
+                .btn-sigin {
+                    font-family: "iCielAvantGardeGothic-SemBd";
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 40px;
+                    letter-spacing: normal;
+                    color: #ffffff;
+                    background: #fc4945;
+                    width: 290px;
+                    border: none;
+                    border-radius: 3px;
+                    padding-top: 8px;
+                }
+            }
+
+        }
+
+        .header {
+            text-align: center;
+            margin-top: 72px;
+            align-items: center;
+
+            .title {
+                font-family: "iCielAvantGardeGothic-SemBd";
+                font-size: 36px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #1f1f1f;
+            }
+
+            .content-block {
+                margin-top: 24px;
+                text-align: center;
+                margin-left: 24px;
+                margin-right: 24px;
+
+                .content {
+                    padding-right: 0px !important;
+                    padding-left: 0px !important;
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 20px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: black;
+                }
+            }
+
+        }
+
+        .body-mobile {
+            align-items: center;
+            margin-top: 24px;
+            margin-bottom: 72px;
+
+            .box {
+                margin-top: 24px;
+                border: 2px solid #37173d;
+                width: 128px;
+                height: 128px;
+                text-align: center;
+                padding-top: 21px;
+                position: relative;
+                background: white;
+                left: 28% !important;
+
+                span {
+                    position: relative;
+                    top: 16px;
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 20px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: black;
+                }
+            }
+        }
+
+        .body {
+            align-items: center;
+            margin-top: 40px;
+            margin-left: 60px;
+            margin-right: 60px;
+            position: relative;
+            top: -130px;
+
+            .box {
+                border: 2px solid #37173d;
+                width: 72px;
+                height: 72px;
+                text-align: center;
+                padding-top: 21px;
+                position: relative;
+                background: white;
+                left: 35%;
+
+                span {
+                    font-family: "iCielAvantGardeGothic-SemBd";
+                    font-size: 35px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #70396d;
+                }
+            }
+            .background{
+                width: 140px;
+                height: 140px;
+            }
+
+            .text-content {
+                max-width: 132px;
+                text-align: center;
+                margin-top: 24px;
+                position: relative;
+                left: 20%;
+
+                span {
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: black;
+                }
+            }
+        }
+
+        .box-out {
+            border: solid 2px #dadada;
+            width: 100%;
+            height: 154px;
+            position: relative;
+            top: 99px;
+        }
+    }
+    .sec-6{
+        .form{
+            .two{
+                input{
+                    width: 97% !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .body-mobile {
+        align-items: center;
+        margin-top: 24px;
+        margin-bottom: 72px;
+
+        .box {
+            margin-top: 24px;
+            border: 2px solid #37173d;
+            width: 128px;
+            height: 128px;
+            text-align: center;
+            padding-top: 21px;
+            position: relative;
+            background: white;
+            left: 24% !important;
+
+            span {
+                position: relative;
+                top: 16px;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 20px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: black;
+            }
+        }
+    }
+
+    .sec-6{
+        .form{
+            .two{
+                input{
+                    width: 97% !important;
+                }
+            }
+        }
+    }
+
+    .slogan {
+        margin-top: 14vh !important;
+        left: 120px !important;
+        .space {
+            width: 100% !important;
+            margin-bottom: 25px !important;
+            .title {
+                font-size: 28px !important;
+            }
+            .content-box {
+                width: 100% !important;
+                span {
+                    font-size: 12px !important;
+                    
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sec-6{
+        .form{
+            .two{
+                input{
+                    width: 98% !important;
+                }
+            }
+        }
+    }
+    .slogan {
+        margin-top: 12% !important;
+        left: 110px !important;
+        .space {
+            width: 100% !important;
+            margin-bottom: 25px !important;
+            .title {
+                font-size: 19px !important;
+            }
+            .content-box {
+                width: 100% !important;
+                span {
+                    font-size: 12px !important;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .slogan {
+        margin-top: 10% !important;
+        left: 165px !important;
+        .space {
+            width: 94% !important;
+            .title {
+                font-size: 36px !important;
+            }
+            .content-box {
+                width: 97% !important;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .slogan {
+        margin-top: 6% !important;
+        left: 195px !important;
+        .space {
+            width: 78% !important;
+            .title {
+                font-size: 36px !important;
+            }
+            .content-box {
+                width: 97% !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    .slogan {
+        margin-top: 10% !important;
+        left: 205px !important;
+        .space {
+            width: 98% !important;
+        }
+    }
+}
+
+
+
+@media (min-width: 1600px) and (max-width: 1900px) {
+    .slogan {
+        margin-top: 19% !important;
+        left: 255px !important;
+    }
+}
+
+
+@media (min-width: 1900.01px) {
+    .slogan {
+        margin-top: 22% !important;
+        left: 255px !important;
+    }
+}
+
+.container-a {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+    width: 100%;
+    background: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: border-color .5s, opacity .5s, background .5s;
+
+    .navbar {
+
+        .navbar-brand {
+            .logo {
+                width: 220px;
+            }
+        }
+
+        .menu {
+            text-align: right;
+
+            .btn-secondary {
+                background: transparent;
+                border: none !important;
+                outline: none !important;
+                margin-left: 32px;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 14px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+
+
+            }
+
+            .btn-secondary:hover {
+                color: #fc4945;
+                border: none !important;
+                outline: none !important;
+                outline-color: transparent !important;
+
+            }
+
+            .btn-primary {
+                background: #f3f3f3;
+                border: none !important;
+                outline: none !important;
+                min-width: 96px;
+                margin-left: 32px;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 14px;
+                font-weight: 500;
+                padding: 4px;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #37173d;
+            }
+
+            .btn-primary:hover {
+                background: #fc4945;
+                border: none !important;
+                outline: none !important;
+                outline-color: transparent !important;
+            }
+
+            .full-width {
+                top: 32px;
+                left: -50px;
+                width: 100%;
+                position: absolute;
+                text-align: right;    
+            }
+        }
+    }
+
+}
+
+.header-main {
+    width: 100%;
+    background-image: url(/assets/business/biz-background.png);
+    background-color: #9a9a9a;
+    display: flex;
+    justify-content: flex-end;
+    height: 85vh;
+    min-height: 40vw;
+    max-height: 55vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    filter: black(40%);
+    .slogan-block {
+        display: flex;
+        flex-direction: row;
+        .slogan {
+            margin-top: 25vh;
+            left: 120px;
+            .space {
+                
+                // margin-top: 8px;
+                // width: 80%;
+                margin-bottom: 30px;
+                // width: 95%
+                line-height: 1;
+            }
+    
+            .title {
+                font-family: "iCielAvantGardeGothic-SemBd";
+                font-size: 46px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff ;
+    
+            }
+            .content-box {
+                width: 80%;
+            }
+            .content {
+                font-family: "iCielAvantGardeGothic";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+    
+            }
+    
+            .btn-sigin {
+                font-family: "iCielAvantGardeGothic-SemBd";
+                font-size: 18px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 40px;
+                letter-spacing: normal;
+                color: #ffffff;
+                background: #fc4945;
+                width: 290px;
+                border: none;
+                border-radius: 3px;
+                padding-top: 8px;
+            }
+        }
+    }
+    
+
+    .navbar {
+        .navbar-brand {
+            text-align: left;
+
+            .logo {
+                width: 220px;
+            }
+        }
+
+        // .menu-mobile {
+        //     text-align: right;
+
+        //     .btn-secondary {
+        //         background: transparent;
+        //         border: none !important;
+        //         outline: none !important;
+        //         margin-left: 32px;
+        //         font-family: "iCielAvantGardeGothic-Book";
+        //         font-size: 14px;
+        //         font-weight: 500;
+        //         font-style: normal;
+        //         font-stretch: normal;
+        //         line-height: normal;
+        //         letter-spacing: normal;
+        //         color: #ffffff;
+        //     }
+        //     .btn-secondary:hover {
+        //         color: #fc4945;
+        //         border: none !important;
+        //         outline: none !important;
+        //         outline-color: transparent !important;
+
+        //     }
+
+        //     .btn-primary {
+        //         background: #f3f3f3;
+        //         border: none !important;
+        //         outline: none !important;
+        //         min-width: 68px;
+        //         height: 14px;
+        //         margin-left: 32px;
+        //         width: 98px;
+        //         height: 33px;
+        //         font-family: "iCielAvantGardeGothic";
+        //         font-size: 14px;
+        //         font-weight: 500;
+        //         padding: 4px;
+        //         font-style: normal;
+        //         font-stretch: normal;
+        //         line-height: normal;
+        //         letter-spacing: normal;
+        //         color: #70396d;
+        //         border-radius: 3px;
+        //     }
+
+        //     .btn-primary:hover {
+        //         background: #fc4945;
+        //         border: none !important;
+        //         outline: none !important;
+        //         outline-color: transparent !important;
+        //     }
+
+        //     .full-width {
+        //         top: 32px;
+        //         left: -50px;
+        //         width: 100%;
+        //         position: absolute;
+        //         text-align: right;            
+        //     }
+        // }
+
+        .menu {
+            text-align: right;
+
+            .btn-secondary {
+                background: transparent;
+                border: none !important;
+                outline: none !important;
+                margin-left: 32px;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 14px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+
+
+
+            }
+
+            .btn-secondary:hover {
+                color: #fc4945;
+                border: none !important;
+                outline: none !important;
+                outline-color: transparent !important;
+
+            }
+
+            .btn-primary {
+                background: white;
+                border: none !important;
+                outline: none !important;
+                min-width: 96px;
+                margin-left: 32px;
+                width: 98px;
+                height: 33px;
+                font-family: "iCielAvantGardeGothic";
+                font-size: 14px;
+                font-weight: 500;
+                padding: 4px;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #70396d;
+                border-radius: 3px;
+            }
+
+            .btn-primary:hover {
+                background: #fc4945;
+                border: none !important;
+                outline: none !important;
+                outline-color: transparent !important;
+            }
+        }
+
+
+    }
+
+    .twIntro_Border {
+        z-index: 11;
+        content: ' ';
+        display: fix;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 400%;
+        fill: #fff;
+        -webkit-animation: move 20s infinite;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-timing-function: linear;
+        /* Safari 4.0 - 8.0 */
+        animation: move 20s alternate infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes move {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+.sec-1 {
+    .slogan-block {
+        margin-top: 72px;
+
+        .slogan {
+            .space {
+                margin-top: 8px;
+                margin-bottom: 40px;
+                max-width: 100%;
+            }
+
+            .title {
+                font-family: "iCielAvantGardeGothic-SemBd";
+                font-size: 36px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: black;
+
+            }
+
+            .content {
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 18px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: black;
+
+            }
+
+            .btn-sigin {
+                font-family: "iCielAvantGardeGothic-SemBd";
+                font-size: 18px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 40px;
+                letter-spacing: normal;
+                color: #ffffff;
+                background: #fc4945;
+                width: 290px;
+                border: none;
+                border-radius: 3px;
+                padding-top: 8px;
+            }
+        }
+
+    }
+
+    .header {
+        text-align: center;
+        margin-top: 72px;
+        align-items: center;
+
+        .title {
+            font-family: "iCielAvantGardeGothic-SemBd";
+            font-size: 36px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #1f1f1f;
+        }
+
+        .content-block {
+            margin-top: 24px;
+            text-align: center;
+            margin-left: 24px;
+            margin-right: 24px;
+
+            .content {
+                padding-right: 84px;
+                padding-left: 84px;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 20px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: black;
+            }
+        }
+
+    }
+
+    .body-mobile {
+        align-items: center;
+        margin-top: 24px;
+        margin-bottom: 72px;
+
+        .background{
+            text-align: center;
+            margin-top: 24px;
+            img{
+                width: 64px;
+                height: 64px;
+            }
+        }
+
+        .text-content {
+            // position: relative;
+            text-align: center;
+            margin-top: 24px;
+            position: absolute;
+            left: 118px;
+            top: 42px;
+            text-align: left;
+            span {
+                font-family: 'iCielAvantGardeGothic-SemBd';
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5;
+                text-transform: uppercase;
+            }
+        }
+        .text-content1 {
+            // position: relative;
+            margin-top: 16px;
+            position: absolute;
+            left: 92px;
+            top: 20px;
+            text-align: left;
+            span {
+                font-family: 'iCielAvantGardeGothic-SemBd';
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5;
+                text-transform: uppercase;
+            }
+        }
+        .text-content2 {
+            // position: relative;
+            text-align: center;
+            margin-top: 24px;
+            position: absolute;
+            left: 88px;
+            width: 80%;
+            top: 12px;
+            text-align: left;
+            span {
+                font-family: 'iCielAvantGardeGothic-SemBd';
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .body {
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 112px;
+        .background{
+            text-align: center;
+            margin-top: 24px;
+            img{
+                width: 140px;
+                height: 140px;
+            }
+        }
+
+        .text-content {
+            // position: relative;
+            text-align: center;
+            margin-top: 24px;
+            position: absolute;
+            left: 118px;
+            top: 42px;
+            text-align: left;
+            span {
+                font-family: 'iCielAvantGardeGothic-SemBd';
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 1.5;
+                text-transform: uppercase;
+            }
+        }
+        .text-content1 {
+            // position: relative;
+            text-align: center;
+            margin-top: 24px;
+            position: absolute;
+            left: 118px;
+            top: 48px;
+            text-align: left;
+            span {
+                font-family: 'iCielAvantGardeGothic-SemBd';
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 1.5;
+                text-transform: uppercase;
+            }
+        }
+        .text-content2 {
+            // position: relative;
+            text-align: center;
+            margin-top: 24px;
+            position: absolute;
+            left: 112px;
+            width: 80%;
+            top: 48px;
+            text-align: left;
+            span {
+                font-family: 'iCielAvantGardeGothic-SemBd';
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 1.5;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .box-out {
+        // border: solid 2px #dadada;
+        width: 100%;
+        height: 154px;
+        position: relative;
+        top: 99px;
+    }
+}
+
+.sec-2 {
+    width: 100%;
+    background: #37173d;
+    // background-image: url(https://www.treatwell.co.uk/business-info/wp-content/uploads/sites/38/2019/05/intro-bg.jpg);
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    height: auto;
+    min-height: 35vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+
+    .gl-Border-top {
+        z-index: 11;
+        content: ' ';
+        display: block;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        width: 400%;
+        fill: #37173d;
+        background: #fff;
+        -webkit-animation: move 30s infinite;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-timing-function: linear;
+        /* Safari 4.0 - 8.0 */
+        animation: move 30s alternate infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .gl-Border-bottom {
+        z-index: 11;
+        content: ' ';
+        display: block;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 400%;
+        fill: #fff;
+        -webkit-animation: move 30s infinite;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-timing-function: linear;
+        /* Safari 4.0 - 8.0 */
+        animation: move 30s alternate infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .header {
+        .title {
+            text-align: center;
+            margin-top: 96px;
+
+            span {
+                font-family: "iCielAvantGardeGothic-SemBd";
+                font-size: 36px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+
+            }
+        }
+
+    }
+
+    .mobile-body{
+        margin-top: 60px;
+        margin-bottom: 72px;
+
+        .content {
+            text-align: left;
+            margin-top: 32px;
+            min-height: 136px;
+            margin-left: 32px;
+            .icon{
+                margin-bottom: 24px;
+                img{
+                    height: 48px;
+                }
+            }
+            .line{
+                height: 1px;
+                background-color: #ffffff;
+                width: 80%;
+                margin-bottom: 16px;
+            }
+            span {
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 20px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+            }
+        }
+    }
+    .body {
+        margin-top: 60px;
+        margin-bottom: 72px;
+
+        .content {
+            text-align: left;
+            margin-top: 32px;
+            min-height: 200px;
+            .icon{
+                margin-bottom: 24px;
+                img{
+                    height: 74px;
+                }
+            }
+            .line{
+                height: 1px;
+                background-color: #ffffff;
+                width: 80%;
+                margin-bottom: 16px;
+            }
+            span {
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 20px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.sec-3 {
+        .block-left-mobile {
+            margin-top: 96px;
+            margin-bottom: 160px;
+    
+            .water {
+                height: 270px;
+            }
+    
+            .frame {
+                height: 375px;
+                top: -40px;
+                position: absolute;
+                left: 30%;
+            }
+    
+            .image-1 {
+                height: 275px;
+                position: absolute;
+                left: 135px;
+                top: 3px;            
+            }
+    
+            .image {
+                height: 282px;
+                position: absolute;
+                left: 135px;
+                top: 3px;            
+            }
+    
+            .socail-block{
+                position: absolute;
+                right: 60px;
+                top: 30%;
+                .socail-group{
+                    margin-bottom: 16px;
+                    img{
+                        width: 30px;
+                        height: 30px;   
+                    }
+                    span{
+                        font-family: "iCielAvantGardeGothic";
+                        font-size: 12px;
+                        font-weight: normal;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 1.5;
+                        letter-spacing: normal;
+                        color: #6b6b6b;
+                        margin-left: 16px;
+                      
+                    }
+                }
+               
+            }
+            .space-header {
+                margin-top: 90px;
+                margin-bottom: 32px;
+    
+                span {
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #6b6b6b;
+                }
+            }
+    
+            .space-title {
+                margin-bottom: 32px;
+    
+                span {
+                    font-family: "iCielAvantGardeGothic-SemBd";
+                    font-size: 36px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #1f1f1f;
+                }
+    
+            }
+    
+            .space-content {
+                margin-bottom: 32px;
+                line-height: 24px;
+                text-align: justify;
+                width: 92%;
+
+                span {
+                    font-family: "iCielAvantGardeGothic-Book";
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1;
+                    letter-spacing: normal;
+                    color: #6b6b6b;
+                }
+            }
+    
+            .space-btn {
+                button {
+                    outline: none !important;
+                    border: none !important;
+                    border-radius: 0px;
+                    background-color: #70396d;
+                    width: 135px;
+                    height: 37px;
+                    font-family: "iCielAvantGardeGothic";
+                    font-size: 14px;
+                    font-weight: bolder;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #ffffff;
+                    border-radius: 4px;
+                    text-align: center;
+                    
+                }
+    
+                button:hover {
+                    background-color: #fc4945;
+                }
+            }
+        }
+    
+    .block-left {
+        margin-top: 96px;
+        margin-bottom: 160px;
+
+        .water {
+            height: 396px;
+            position: absolute;
+            top: 172px;
+            left: -80px;
+        }
+
+        .frame {
+            height: 500px;
+            position: absolute;
+            left: 80px;
+            top: 44px;
+        }
+
+        .image-1 {
+            height: 374.5px;
+            position: absolute;
+            left: 96px;
+            top: 101px;
+        }
+
+        .image {
+            height: 366.5px;
+            position: absolute;
+            left: 96px;
+            top: 101px;
+        }
+
+        .socail-block{
+            position: absolute;
+            right: 60px;
+            top: 30%;
+            .socail-group{
+                margin-bottom: 16px;
+                img{
+                    width: 30px;
+                    height: 30px;   
+                }
+                span{
+                    font-family: "iCielAvantGardeGothic";
+                    font-size: 12px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.5;
+                    letter-spacing: normal;
+                    color: #6b6b6b;
+                    margin-left: 16px;
+                  
+                }
+            }
+           
+        }
+        .space-header {
+            margin-top: 90px;
+            margin-bottom: 32px;
+
+            span {
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #6b6b6b;
+            }
+        }
+
+        .space-title {
+            margin-bottom: 32px;
+
+            span {
+                font-family: "iCielAvantGardeGothic-SemBd";
+                font-size: 36px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #1f1f1f;
+            }
+
+        }
+
+        .space-content {
+            margin-bottom: 32px;
+            line-height: 24px;
+            text-align: justify;
+            width: 92%;
+
+            span {
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1;
+                letter-spacing: normal;
+                color: #6b6b6b;
+            }
+        }
+
+        .space-btn {
+            button {
+                outline: none !important;
+                border: none !important;
+                border-radius: 0px;
+                background-color: #70396d;
+                width: 135px;
+                height: 37px;
+                font-family: "iCielAvantGardeGothic";
+                font-size: 14px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+                border-radius: 4px;
+            }
+
+            button:hover {
+                background-color: #fc4945;
+            }
+        }
+    }
+
+    .block-right {
+        margin-top: 96px;
+        margin-bottom: 160px;
+
+        .water {
+            height: 396px;
+            position: absolute;
+            top: 120px;
+            right: -8px
+        }
+
+        .frame {
+            height: 500px;
+            position: absolute;
+            left: 164px;
+            top: -20px;
+        }
+
+        .image {
+            height: 366.5px;
+            position: absolute;
+            left: 180px;
+            top: 37px;
+        }
+
+        .space-header {
+            margin-top: 90px;
+            margin-bottom: 32px;
+
+            span {
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #6b6b6b;
+            }
+        }
+
+        .space-title {
+            margin-bottom: 32px;
+
+            span {
+                font-family: "iCielAvantGardeGothic-SemBd";
+                font-size: 36px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #1f1f1f;
+            }
+
+        }
+
+        .space-content {
+            margin-bottom: 32px;
+            line-height: 24px;
+            text-align: justify;
+            width: 92%;
+
+            span {
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1;
+                letter-spacing: normal;
+                color: #6b6b6b;
+            }
+        }
+
+        .space-btn {
+            button {
+                outline: none !important;
+                border: none !important;
+                border-radius: 0px;
+                background-color: #70396d;
+                width: 135px;
+                height: 37px;
+                font-family: "iCielAvantGardeGothic";
+                font-size: 14px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+                border-radius: 4px;
+            }   
+
+            button:hover {
+                background-color: #fc4945;
+            }
+        }
+    }
+}
+
+
+.sec-4 {
+    width: 100%;
+    background: #f3f3f3;
+    // background-image: url(https://www.treatwell.co.uk/business-info/wp-content/uploads/sites/38/2019/05/intro-bg.jpg);
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+
+    .gl-Border-top {
+        z-index: 11;
+        content: ' ';
+        display: block;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        width: 400%;
+        fill: #f3f3f3;
+        background: #fff;
+        -webkit-animation: move 30s infinite;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-timing-function: linear;
+        /* Safari 4.0 - 8.0 */
+        animation: move 30s alternate infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .gl-Border-bottom {
+        z-index: 11;
+        content: ' ';
+        display: block;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 400%;
+        fill: #fff;
+        -webkit-animation: move 30s infinite;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-timing-function: linear;
+        /* Safari 4.0 - 8.0 */
+        animation: move 30s alternate infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .header {
+        .title {
+            text-align: center;
+            margin-top: 96px;
+            margin-bottom: 46px;
+            span {
+                font-family: "iCielAvantGardeGothic-SemBd";
+                font-size: 36px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #111111;
+
+            }
+        }
+
+    }
+
+    .body {
+        // margin-top: 60px;
+        padding-bottom: 100px;
+
+        .content {
+            text-align: center;
+            margin-top: 32px;
+            margin-bottom: 32px;
+
+            span {
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 18px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+            }
+        }
+        .item{
+            white-space: normal !important;
+        }
+        .card{
+            border: 0;
+            padding: 23px 16px;
+            margin-top: 28px;
+            border-radius: 3px;
+            box-shadow: 19px 19px 11px -2px rgba(0, 0, 0, 0.15);
+
+            .item-body{
+                text-align: justify;
+                p{
+                    font-family: "iCielAvantGardeGothic";
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.5;
+                    letter-spacing: normal;
+                    color: #3f3f3f;
+                }
+            }
+        }
+        .media{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 8px;
+
+            img{
+                width: 63px;
+                height: 63px;
+                border-radius: 50%;
+            }
+            
+            .media-body {
+                align-self: center;
+            }
+
+            .user-name{
+                font-family: 'iCielAvantGardeGothic-Book';
+                font-size: 16px;
+                color: #686565;
+                position: relative;
+                top: 8px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .barber-name {
+                font-family: 'iCielAvantGardeGothic-Book';
+                font-size: 12px;
+                color: #1BD63A;
+                position: relative;
+                top: 8px;
+                text-align: center;
+            }
+            
+        }
+        .star {
+            // background-image: url(/assets/icon/ic-star.svg);
+            margin-left: 0px;
+            margin-right: 4px;
+            margin-top: 4px;
+            position: relative;
+            width: 16px;
+            height: 16px;
+          }
+          .filled {
+            // background-image: url(/assets/icon/ic-star.svg);
+            fill: #fc4945;
+          }
+          .bad {
+            //background-image: url(/assets/icon/ic-bab-star.svg);
+            fill: #e2e2e2;
+          }
+          .filled.bad {
+            //background-image: url(/assets/icon/ic-star.svg);
+            fill: #fc4945;
+          }
+    }
+}
+
+
+
+.sec-5 {
+    .image {
+        // margin-top: 96px;
+        /* height: 362px; */
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .space-title {
+        margin-top: 74px;
+        margin-bottom: 32px;
+        text-align: center;
+        width: 100%;
+
+        span {
+            font-family: "iCielAvantGardeGothic-SemBd";
+            font-size: 36px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #1f1f1f;
+        }
+
+    }
+
+    .button-block {
+        margin-bottom: 32px;
+        text-align: center;
+        width: 100%;
+
+        .btn {
+            margin-bottom: 16px;
+            width: 100%;
+        }
+
+        .btn-primary {
+            background: #72b6b1;
+            outline: none !important;
+            border: none;
+            font-family: "iCielAvantGardeGothic-Book";
+            font-size: 20px;
+
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #ffffff;
+            margin: 8px;
+            padding-right: 16px;
+            padding-left: 16px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+
+        }
+
+        .btn-primary:hover {
+            background: #70396d;
+        }
+
+
+        .btn-secondary {
+            background: #fc4945;
+            outline: none !important;
+            border: none;
+
+            font-family: "iCielAvantGardeGothic-Book";
+            font-size: 20px;
+            padding-right: 40px;
+            padding-left: 40px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #ffffff;
+        }
+
+        .btn-secondary:hover {
+            background: #70396d;
+        }
+
+        .video {
+            margin-top: 32px;
+        }
+    }
+}
+
+.sec-6 {
+    margin-bottom: 64px;
+
+    .header {
+        .title {
+            text-align: center;
+            margin-top: 96px;
+
+            span {
+                font-family: "iCielAvantGardeGothic-SemBd";
+                font-size: 36px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #1f1f1f;
+
+            }
+        }
+
+    }
+
+    .body {
+        margin-top: 26px;
+
+        .col-right {
+            padding-right: 44px;
+        }
+
+        .content {
+            text-align: center;
+            margin-bottom: 32px;
+
+            span {
+                font-family: "iCielAvantGardeGothic";
+                font-size: 16px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #000000;
+            }
+        }
+    }
+
+    .form {
+        width: 90%;
+        margin-left: 24px;
+        .title {
+            span {
+                font-family: "iCielAvantGardeGothic";
+                font-size: 20px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: black;
+            }
+        }
+
+        .one {
+            margin-top: 16px;
+            margin-bottom: 16px;
+
+            input {
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border-radius: 3px;
+                width: 100%;
+                outline: none !important;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #686565;
+                border: solid 1px #dbdbdb;
+            }
+        }
+
+        .two {
+            margin-top: 16px;
+            margin-bottom: 16px;
+
+            .space {
+                margin-right: 0px;
+                max-height: 400px;
+                overflow: scroll;
+
+                &::-webkit-scrollbar {
+                    width: 0px;
+                    height: 0px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: #1c0920;
+                    border-radius: 1px;
+                }
+            }
+
+            .col-2-input {
+                margin-left: -22px;
+            }
+
+            input {
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border-radius: 3px;
+                width: 96%;
+                outline: none !important;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #686565;
+                border: solid 1px #dbdbdb;
+                outline: none;
+            }
+
+
+            .img-one {
+                position: absolute;
+                z-index: 1;
+                right: 20px;
+
+                top: 18px;
+
+            }
+
+            .img-two {
+                position: absolute;
+                z-index: 1;
+                right: 20px;
+
+                top: 18px;
+            }
+        }
+
+        .one-right {
+            margin-top: 16px;
+            margin-bottom: 16px;
+
+            .dropdown{
+                height: 48px !important;
+                width: 100%;
+            }
+            // margin-bottom: 16px;
+            input {
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border-radius: 3px;
+                width: 100%;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #686565;
+                border: solid 1px #dbdbdb;
+
+                outline: none !important;
+            }
+
+            .img-one {
+                vertical-align: middle;
+                border-style: none;
+                position: relative;
+                z-index: 1;
+                left: 95%;
+                top: -42px;
+            }
+        }
+
+        .one-right-mobile {
+            margin-top: 16px;
+
+            // margin-bottom: 16px;
+            input {
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border-radius: 3px;
+                width: 100%;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #686565;
+                border: solid 1px #dbdbdb;
+
+                outline: none !important;
+            }
+
+            .img-one {
+                vertical-align: middle;
+                border-style: none;
+                position: relative;
+                z-index: 1;
+                left: 92%;
+                top: -36px;
+            }
+
+            .dropdown-full {
+                width: 100%;
+            }
+        }
+
+        .two-right {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            max-width: 100%;
+            input {
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border-radius: 3px;
+                width: 47%;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #686565;
+                border: solid 1px #dbdbdb;
+                outline: none !important;
+            }
+
+            .input-one {
+                position: relative;
+                left: 0px;
+            }
+
+            .input-two {
+                position: relative;
+                right: -31px;
+            }
+        }
+
+        .two-right-mobile {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            max-width: 100%;
+            input {
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border-radius: 3px;
+                width: 100%;
+
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #686565;
+                border: solid 1px #dbdbdb;
+                outline: none !important;
+            }
+
+            .input-2 {
+                margin-left: 0px;
+            }
+        }
+
+        .sub-content {
+            text-align: justify;
+            line-height: 1;
+            span {
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 12px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #6b6b6b;
+                
+            }
+
+
+        }
+
+        .btn-sign {
+            margin-top: 24px;
+            width: 100%;
+
+            button {
+                padding: 8px;
+                width: 100%;
+                border-radius: 3px;
+                background-color: #fc4945;
+                font-family: iCielAvantGardeGothic-Book;
+                font-size: 20px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+                border: none !important;
+                outline: none !important;
+            }
+
+            button:hover {
+                background: #70396d;
+            }
+        }
+
+        .dropdown-menu {
+            transform: none !important;
+            top: 48px !important;
+        }
+
+        .dropdown-item{
+            font-family: "iCielAvantGardeGothic-Book";
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+        }
+
+
+    }
+
+    .error-content {
+        text-align: center;
+        margin-bottom: 24px;
+
+        span {
+            font-family: "iCielAvantGardeGothic-Book";
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #fc4945;
+        }
+
+    }
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.block-to-scroll{
+    position: relative;
+    top: -100px;
+}
