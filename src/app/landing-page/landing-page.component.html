@@ -1,467 +1,849 @@
 <div *ngIf='!showDialogLogin'>
-    <div class="header-main">
-        <div class="container">
-            <nav *ngIf="!isMobileResolution" class="row navbar">
-                <div class="col-5">
-                    <a class="navbar-brand" href="#">
-                        <span>
-                            <img class="logo" src="assets/home-assets/logo-white.png">
-                        </span>
-                    </a>
-                </div>
-                <div class="col-7 menu">
-                    <button class="btn-secondary" (click)="gotoFeature()">Tính năng</button>
-                    <button class="btn-secondary" (click)="login()">Đăng nhập</button>
-                    <button class="btn-primary" (click)="gotoSign()">ĐĂNG KÝ</button>
-                </div>
-            </nav>
-
-            <div *ngIf="!isMobileResolution" class="slogan-block">
-                <div class="col-5"></div>
-                <div class="col-6 slogan">
-                    <div class="space">
-                        <span class="title">
-                            Nền tảng trao quyền
-                            cho các Stylist và Artist
-                        </span>
-                    </div>
-                    <div class="space">
-                        <div class="content-box">
-                            <span class="content">
-                                Thể hiện tài năng làm đẹp không giới hạn của bạn giúp người dùng có nhiều sự lựa chọn
-                                hơn để trãi nghiệm
-                                những điều mới mẻ.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="space">
-                        <button class="btn-sigin rounded" (click)="gotoSign()">ĐĂNG KÝ VỚI GLAMSTYLE</button>
-                    </div>
-                </div>
-            </div>
+  <div *ngIf="!isMobileResolution" class="container">
+    <div class="container-a" *ngIf="isScroll">
+      <nav class="row navbar">
+        <div class="col-7">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="assets/icon/logo-black.svg">
+          </a>
         </div>
-        <svg class="twIntro_Border" version="1.1" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 5460 25"
-            style="enable-background:new 0 0 5460 25;" xml:space="preserve">
-            <path
-                d="M5460,25V10c-19.3,0-204.8-4-341.3-4s-204.8,4-341.3,4S4572.8,0,4436.3,0S4231.5,4,4095,4s-204.8,2-341.3,2 S3549,2,3412.5,2s-204.8,8-341.3,8S2866.5,4,2730,4s-204.8,8-341.3,8S2184,0,2047.5,0s-204.8,8-341.3,8S1501.5,4,1365,4 s-204.8,8-341.3,8S819,0,682.5,0S477.8,12,341.3,12S136.5,10,0,10c0,0.2,0,5.5,0,15H5460z">
-            </path>
-        </svg>
+        <div class="col-5 menu">
+          <button class="btn-secondary" (click)="gotoFeature()">Tính năng</button>
+          <button class="btn-secondary" (click)="login()">Đăng nhập</button>
+          <button class="btn-primary" (click)="gotoSign()">Đăng ký</button>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="header-main">
+    <div class="container">
+      <nav *ngIf="!isMobileResolution" class="row navbar">
+        <div class="col-5">
+          <a class="navbar-brand" href="#">
+            <span>
+              <img class="logo" src="assets/home-assets/logo-white.png">
+            </span>
+          </a>
+        </div>
+        <div class="col-7 menu">
+          <button class="btn-secondary" (click)="gotoFeature()">Tính năng</button>
+          <button class="btn-secondary" (click)="login()">Đăng nhập</button>
+          <button class="btn-primary" (click)="gotoSign()">ĐĂNG KÝ</button>
+        </div>
+      </nav>
+      <nav *ngIf="isMobileResolution" class="row navbar">
+        <div class="col-8">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="assets/home-assets/logo-white.png">
+          </a>
+        </div>
+        <div class="col-4 menu-mobile dropdown">
+          <button class="btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Menu</button>
+          <div class="dropdown-menu full-width" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item"><button class="btn-secondary" (click)="gotoFeature()">Tính
+                năng</button></a>
+            <a class="dropdown-item"><button class="btn-secondary" (click)="login()">Đăng nhập</button></a>
+            <a class="dropdown-item"><button class="btn-primary" (click)="gotoSign()">ĐĂNG KÝ</button></a>
+          </div>
+        </div>
+      </nav>
+      <div *ngIf="!isMobileResolution" class="slogan-block">
+        <div class="col-5"></div>
+        <div class="col-6 slogan">
+          <div class="space">
+            <span class="title">
+              Nền tảng trao quyền
+              cho các Stylist và Artist
+            </span>
+          </div>
+          <div class="space">
+            <div class="content-box">
+              <span class="content">
+                Thể hiện tài năng làm đẹp không giới hạn của bạn giúp người dùng có nhiều sự lựa chọn
+                hơn để trãi nghiệm
+                những điều mới mẻ.
+              </span>
+            </div>
+          </div>
+          <div class="space">
+            <button class="btn-sigin rounded" (click)="gotoSign()">ĐĂNG KÝ VỚI GLAMSTYLE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg class="twIntro_Border" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 5460 25"
+      style="enable-background:new 0 0 5460 25;" xml:space="preserve">
+      <path
+        d="M5460,25V10c-19.3,0-204.8-4-341.3-4s-204.8,4-341.3,4S4572.8,0,4436.3,0S4231.5,4,4095,4s-204.8,2-341.3,2 S3549,2,3412.5,2s-204.8,8-341.3,8S2866.5,4,2730,4s-204.8,8-341.3,8S2184,0,2047.5,0s-204.8,8-341.3,8S1501.5,4,1365,4 s-204.8,8-341.3,8S819,0,682.5,0S477.8,12,341.3,12S136.5,10,0,10c0,0.2,0,5.5,0,15H5460z">
+      </path>
+    </svg>
+  </div>
+
+
+  <div class="sec-1 container">
+    <div *ngIf="isMobileResolution" class="slogan-block">
+      <div class="slogan">
+        <div class="space">
+          <span class="title">Nền tảng trao quyền
+            cho các Stylist và Artist.
+          </span>
+        </div>
+        <div class="space">
+          <span class="content">
+            Thể hiện tài năng làm đẹp không giới hạn của bạn giúp người dùng có nhiều sự lựa chọn
+            hơn để trãi nghiệm
+            những điều mới mẻ.
+          </span>
+        </div>
+        <div class="space">
+          <button class="btn-sigin" (click)="gotoSign()">ĐĂNG KÝ VỚI GLAMSTYLE</button>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <span class="title">Tại sao chọn GlamStyle?</span>
+      <div class="content-block">
+        <span class="content">
+          Trong thời đại công nghệ 4.0 nhiệm vụ của chúng tôi là giúp các Chuyên Gia Tự Do trong lĩnh vực làm
+          đẹp biến
+          niềm đam mê của họ thành một doanh nghiệp thành công
+        </span>
+      </div>
+    </div>
+
+    <div *ngIf="!isMobileResolution" class="row body">
+      <div class="col-3">
+        <div class="background">
+          <img src="assets/business/background01.png">
+        </div>
+        <div class="text-content1">
+          <span>
+            Mở cửa tiệm<br>trực tuyến
+          </span>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="background">
+          <img src="assets/business/background02.png">
+        </div>
+        <div class="text-content2">
+          <span>
+            Quản lý<br>tinh gọn
+          </span>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="background">
+          <img src="assets/business/background03.png">
+        </div>
+        <div class="text-content2">
+          <span>
+            Nhận khách<br>hàng mới
+          </span>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="background">
+          <img src="assets/business/background04.png">
+        </div>
+        <div class="text-content2">
+          <span>
+            Tăng trưởng<br>doanh thu
+          </span>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="isMobileResolution" class="body-mobile">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-center">
+          <div class="background">
+            <img src="assets/business/background01.png">
+          </div>
+          <div class="text-content1">
+            <span>
+              Mở cửa tiệm<br>trực tuyến
+            </span>
+          </div>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+          <div class="background">
+            <img src="assets/business/background02.png">
+          </div>
+          <div class="text-content2">
+            <span>
+              Quản lý<br>tinh gọn
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 d-flex justify-content-center">
+          <div class="background">
+            <img src="assets/business/background03.png">
+          </div>
+          <div class="text-content2">
+            <span>
+              Nhận khách<br>hàng mới
+            </span>
+          </div>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+          <div class="background">
+            <img src="assets/business/background04.png">
+          </div>
+          <div class="text-content2">
+            <span>
+              Tăng trưởng<br>doanh thu
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-2" id="sec-2">
+    <div class="container">
+      <div class="row header">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 title">
+          <span>Bạn muốn phát triển kinh doanh online của bạn như thế nào?</span>
+        </div>
+      </div>
+      <div class="row body" *ngIf='!isMobileResolution'>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="content">
+            <div class="icon cursor" (click)='gotoFeatureID("sec-3")'>
+              <img src='assets/business/ic-1.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span><b>Tăng cường danh tiếng trực tuyến</b></span>
+          </div>
+
+          <div class="content">
+            <div class="icon cursor" (click)='gotoFeatureID("sec-3-4")'>
+              <img src='assets/business/ic-4.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span> <b>Tăng chuyển đổi</b>
+              <br><b>khách hàng mới</b> </span>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="content">
+            <div class="icon cursor" (click)='gotoFeatureID("sec-3-2")'>
+              <img src='assets/business/ic-2.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span><b>Sổ tay điện tử</b> </span>
+          </div>
+          <div class="content">
+            <div class="icon cursor" (click)='gotoFeatureID("sec-3-5")'>
+              <img src='assets/business/ic-5.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span> <b>Giữ chân và tăng</b>
+              <br> <b>khách hàng trung thành</b> </span>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="content">
+            <div class="icon cursor" (click)='gotoFeatureID("sec-3-3")'>
+              <img src='assets/business/ic-3.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span> <b>Khách hàng tự phục vụ</b> <br> <b>24/7</b> </span>
+          </div>
+          <div class="content">
+            <div class="icon cursor" (click)='gotoFeatureID("sec-3-6")'>
+              <img src='assets/business/ic-6.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span> <b>Nhanh chóng phát hiện</b>
+              <br> <b>mọi thay đổi</b> </span>
+          </div>
+        </div>
+      </div>
+      <div class="row mobile-body" *ngIf='isMobileResolution'>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="content">
+            <div class="icon">
+              <img src='assets/business/ic-1.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span>Tăng cường danh tiếng
+              <br>trực tuyến của bạn</span>
+          </div>
+
+          <div class="content">
+            <div class="icon">
+              <img src='assets/business/ic-4.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span>Tăng chuyển đổi
+              <br>khách hàng mới</span>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="content">
+            <div class="icon">
+              <img src='assets/business/ic-2.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span>Sổ tay điện tử</span>
+          </div>
+          <div class="content">
+            <div class="icon">
+              <img src='assets/business/ic-5.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span>Giữ chân và tăng
+              <br>khách hàng trung thành</span>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="content">
+            <div class="icon">
+              <img src='assets/business/ic-3.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span>Khách hàng tự phục vụ <br>24/7</span>
+          </div>
+          <div class="content">
+            <div class="icon">
+              <img src='assets/business/ic-6.svg'>
+            </div>
+            <div class="line">
+            </div>
+            <span>Nhanh chóng phát hiện
+              <br>mọi thay đổi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id='sec-3'></div>
+  <div *ngIf="!isMobileResolution" class="sec-3 container" id='sec-3-1'>
+    <div class="row block-left">
+      <div class="col-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/frame-mobile.png">
+      </div>
+      <div class="col-6">
+        <div class="space-header">
+          <span>
+            TĂNG CƯỜNG DANH TIẾNG TRỰC TUYẾN
+          </span>
+        </div>
+        <div class="space-title">
+          <span>
+            Thương hiệu cá nhân
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+            Hãy thể hiện rõ phong cách của bạn để tạo nên thương hiệu khác biệt. Tận dụng lợi thế website
+            GlamStyle được
+            cá nhân hoá từ việc xây dựng hình ảnh chuyên nghiệp đến những nhận xét, cảm nhận của từng khách
+            hàng. Đây là
+            một trang web có thể tùy chỉnh, cho phép khách hàng tìm kiếm bạn 24/7, thậm chí không cần truy
+            cập vào
+            GlamStyle. Bạn cũng đừng lo lắng về tiện ích đặt chỗ trực tuyến (Booking Online), vì tính năng
+            này đã được
+            tích hợp tự động trong trang web cá nhân của bạn.
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class='block-to-scroll' id='sec-3-2'></div>
+
+    <div class="row block-right">
+      <div class="col-6">
+        <div class="space-header">
+          <span>
+            SỔ TAY ĐIỆN TỬ QUẢN LÝ LỊCH LÀM VIỆC TẤT CẢ TRONG MỘT
+          </span>
+        </div>
+        <div class="space-title">
+          <span>
+            Truy cập nhật ký dễ dàng
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+            Dù bạn đi đâu hay đang làm gì thì việc quản lý nhật ký làm việc của salon luôn đơn giản và dễ
+            dàng. Bạn có
+            thể nắm bắt lịch làm việc trong ngày, toàn bộ thông tin và lịch sử đặt hẹn của khách hàng, hiệu
+            suất kinh
+            doanh, v.v… chỉ với một vài cú chạm trên chiếc smartphone của bạn
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
+
+        </div>
+      </div>
+      <div class="col-6">
+
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/calendar.png">
+      </div>
+    </div>
+
+    <div class='block-to-scroll' id='sec-3-3'></div>
+
+    <div class="row block-left">
+      <div class="col-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/booking-online.png">
+        <div class="socail-block">
+          <div class="socail-group">
+            <img src="assets/business/ic-socail01.png">
+            <span>Web Marketplace</span>
+          </div>
+          <div class="socail-group">
+            <img src="assets/business/ic-socail02.png">
+            <span>Web Mobile</span>
+          </div>
+          <div class="socail-group">
+            <img src="assets/business/ic-socail03.png">
+            <span>Facebook</span>
+          </div>
+          <div class="socail-group">
+            <img src="assets/business/ic-socail04.png">
+            <span>Instagram</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="space-header">
+          <span>
+            KHÁCH HÀNG TỰ PHỤC VỤ 24/7
+          </span>
+        </div>
+        <div class="space-title">
+          <span>
+            Booking online 24/7
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+            Bạn không thể mở cửa hàng 24/7 để nhận tất cả lịch hẹn, nhưng GlamStyle sẽ giúp bạn. Chúng tôi
+            cung cấp các
+            công cụ để tiếp cận với khách hàng, cho phép họ tham quan cửa tiệm online của bạn, xem các dịch
+            vụ, đọc nhận
+            xét của các khách hàng sử dụng trước đó, đồng bộ hoá lịch làm việc của bạn. Vì thế, khách hàng
+            có thể nhìn
+            thấy các khung giờ trống và có thể tự đặt hẹn 24/7 mà không cần phải gọi điện thoại trực tiếp
+            cho bạn
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
+
+        </div>
+      </div>
+    </div>
+
+    <div class='block-to-scroll' id='sec-3-4'></div>
+
+    <div class="row block-right">
+      <div class="col-6">
+        <div class="space-header">
+          <span>
+            TĂNG CHUYỂN ĐỔI KHÁCH HÀNG MỚI
+          </span>
+        </div>
+        <div class="space-title">
+          <span>
+            Tiện ích <b>“Đặt ngay!”</b>
+            <br>
+            trên tài khoản mạng xã hội
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+
+            lập tức mà không cần phải gọi cho tiệm của bạn vào giờ làm việc
+            Cho phép bất kỳ khách hàng nào đang lướt qua bài đăng của bạn trên Web, Facebook hoặc Instagram
+            có thể click
+            <b>“Đặt ngay”</b> mà không cần rời khỏi trang, biến tài khoản của bạn thành cửa tiệm ngay lập
+            tức. Đó là một cách
+            để người dùng có thể chuyển từ người lướt web, lướt mạng xã hội trở thành khách hàng ngay lập
+            tức mà không
+            cần phải gọi cho tiệm của bạn vào giờ làm việc
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
+
+        </div>
+      </div>
+      <div class="col-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/booking-now.png">
+      </div>
+    </div>
+
+    <div class='block-to-scroll' id='sec-3-5'></div>
+
+    <div class="row block-left">
+      <div class="col-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/customer-service.png">
+      </div>
+      <div class="col-6">
+        <div class="space-header">
+          <span>
+            GIỮ CHÂN VÀ TĂNG KHÁCH HÀNG TRUNG THÀNH
+          </span>
+        </div>
+        <div class="space-title">
+          <span>
+            Quản lý và <br>
+            chăm sóc khách hàng
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+            Mỗi cuộc hẹn được cá nhân hóa để theo dõi lịch sử khách hàng, số lượng cuộc hẹn, ngày sinh nhật,
+            ghi chú
+            riêng tư, liệu trình làm đẹp, cũng như sở thích hay thói quen đặc biệt của khách hàng, giúp bạn
+            giữ chân
+            khách hàng và tăng tần suất quay trở lại của khách hàng đó
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class='block-to-scroll' id='sec-3-6'></div>
+
+    <div class="row block-right">
+      <div class="col-6">
+        <div class="space-header">
+          <span>
+            NHANH CHÓNG PHÁT HIỆN MỌI THAY ĐỔI
+          </span>
+        </div>
+        <div class="space-title">
+          <span>
+            Thông báo tự động
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+            Ứng dụng GlamStyle sẽ tự động gửi cho bạn những thông báo để cập nhật tình hình kinh doanh như:
+            có lịch đặt
+            chỗ mới, khách hàng thay đổi lịch hẹn, nhận xét mới từ khách hàng... bằng công cụ thông báo từ
+            ứng dụng,
+            email và tin nhắn SMS trên di động. Giúp bạn tiết kiệm thời gian để tập trung sáng tạo nhiều
+            kiểu tóc mới và
+            xử lý những việc quan trọng của doanh nghiệp mình
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
+
+        </div>
+      </div>
+      <div class="col-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/important-notice.png">
+      </div>
+    </div>
+  </div>
+  <div *ngIf="isMobileResolution" class="sec-3 container" id="sec-3">
+
+    <div class="row block-left-mobile" id="sec-3-1">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/frame-mobile.png">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="space-header">
+          <span>
+            TĂNG CƯỜNG DANH TIẾNG TRỰC TUYẾN CỦA BẠN
+          </span>
+        </div>
+        <div class="space-title">
+          <span>
+            Thương hiệu cá nhân
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+            Hãy thể hiện rõ phong cách của bạn để tạo nên thương hiệu khác biệt. Tận dụng lợi thế website
+            GlamStyle được
+            cá nhân hoá từ việc xây dựng hình ảnh chuyên nghiệp đến những nhận xét, cảm nhận của từng khách
+            hàng. Đây là
+            một trang web có thể tùy chỉnh, cho phép khách hàng tìm kiếm bạn 24/7, thậm chí không cần truy
+            cập vào
+            GlamStyle. Bạn cũng đừng lo lắng về tiện ích đặt chỗ trực tuyến (Booking Online), vì tính năng
+            này đã được
+            tích hợp tự động trong trang web cá nhân của bạn.
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row block-left-mobile" id="sec-3-2">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/calendar.png">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="space-header">
+          <span>
+            SỔ TAY ĐIỆN TỬ QUẢN LÝ LỊCH LÀM VIỆC TẤT CẢ TRONG MỘT
+          </span>
+        </div>
+        <div class="space-title">
+          <span>
+            Truy cập nhật ký dễ dàng
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+            Dù bạn đi đâu hay đang làm gì thì việc quản lý nhật ký làm việc của salon luôn đơn giản và dễ
+            dàng. Bạn có
+            thể nắm bắt lịch làm việc trong ngày, toàn bộ thông tin và lịch sử đặt hẹn của khách hàng, hiệu
+            suất kinh
+            doanh, v.v… chỉ với một vài cú chạm trên chiếc smartphone của bạn
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
+
+        </div>
+      </div>
+
     </div>
 
 
-    <div class="sec-1 container">
-        <div class="header">
-            <span class="title">Tại sao chọn GlamStyle?</span>
-            <div class="content-block">
-                <span class="content">
-                    Trong thời đại công nghệ 4.0 nhiệm vụ của chúng tôi là giúp các Chuyên Gia Tự Do trong lĩnh vực làm
-                    đẹp biến
-                    niềm đam mê của họ thành một doanh nghiệp thành công
-                </span>
-            </div>
+    <div class="row block-left-mobile" id="sec-3-3">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/booking-online.png">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="space-header">
+          <span>
+            KHÁCH HÀNG TỰ PHỤC VỤ 24/7
+          </span>
         </div>
+        <div class="space-title">
+          <span>
+            Booking online 24/7
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+            Bạn không thể mở cửa hàng 24/7 để nhận tất cả lịch hẹn, nhưng GlamStyle sẽ giúp bạn. Chúng tôi
+            cung cấp các
+            công cụ để tiếp cận với khách hàng, cho phép họ tham quan cửa tiệm online của bạn, xem các dịch
+            vụ, đọc nhận
+            xét của các khách hàng sử dụng trước đó, đồng bộ hoá lịch làm việc của bạn. Vì thế, khách hàng
+            có thể nhìn
+            thấy các khung giờ trống và có thể tự đặt hẹn 24/7 mà không cần phải gọi điện thoại trực tiếp
+            cho bạn
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
 
-        <div *ngIf="!isMobileResolution" class="row body">
-            <div class="col-3">
-                <div class="background">
-                    <img src="assets/business/background01.png">
-                </div>
-                <div class="text-content1">
-                    <span>
-                        Mở cửa tiệm<br>trực tuyến
-                    </span>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="background">
-                    <img src="assets/business/background02.png">
-                </div>
-                <div class="text-content2">
-                    <span>
-                        Quản lý<br>tinh gọn
-                    </span>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="background">
-                    <img src="assets/business/background03.png">
-                </div>
-                <div class="text-content2">
-                    <span>
-                        Nhận khách<br>hàng mới
-                    </span>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="background">
-                    <img src="assets/business/background04.png">
-                </div>
-                <div class="text-content2">
-                    <span>
-                        Tăng trưởng<br>doanh thu
-                    </span>
-                </div>
-            </div>
         </div>
+      </div>
     </div>
 
-    <div class="sec-2" id="sec-2">
-        <div class="container">
-            <div class="row header">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 title">
-                    <span>Bạn muốn phát triển kinh doanh online của bạn như thế nào?</span>
-                </div>
 
-            </div>
-            <div class="row body" *ngIf='!isMobileResolution'>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                    <div class="content">
-                        <div class="icon cursor" (click)='gotoFeatureID("sec-3")'>
-                            <img src='assets/business/ic-1.svg'>
-                        </div>
-                        <div class="line">
-                        </div>
-                        <span><b>Tăng cường danh tiếng trực tuyến</b></span>
-                    </div>
+    <div class="row block-left-mobile" id="sec-3-4">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/booking-now.png">
+      </div>
 
-                    <div class="content">
-                        <div class="icon cursor" (click)='gotoFeatureID("sec-3-4")'>
-                            <img src='assets/business/ic-4.svg'>
-                        </div>
-                        <div class="line">
-                        </div>
-                        <span> <b>Tăng chuyển đổi</b>
-                            <br><b>khách hàng mới</b> </span>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                    <div class="content">
-                        <div class="icon cursor" (click)='gotoFeatureID("sec-3-2")'>
-                            <img src='assets/business/ic-2.svg'>
-                        </div>
-                        <div class="line">
-                        </div>
-                        <span><b>Sổ tay điện tử</b> </span>
-                    </div>
-                    <div class="content">
-                        <div class="icon cursor" (click)='gotoFeatureID("sec-3-5")'>
-                            <img src='assets/business/ic-5.svg'>
-                        </div>
-                        <div class="line">
-                        </div>
-                        <span> <b>Giữ chân và tăng</b>
-                            <br> <b>khách hàng trung thành</b> </span>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                    <div class="content">
-                        <div class="icon cursor" (click)='gotoFeatureID("sec-3-3")'>
-                            <img src='assets/business/ic-3.svg'>
-                        </div>
-                        <div class="line">
-                        </div>
-                        <span> <b>Khách hàng tự phục vụ</b> <br> <b>24/7</b> </span>
-                    </div>
-                    <div class="content">
-                        <div class="icon cursor" (click)='gotoFeatureID("sec-3-6")'>
-                            <img src='assets/business/ic-6.svg'>
-                        </div>
-                        <div class="line">
-                        </div>
-                        <span> <b>Nhanh chóng phát hiện</b>
-                            <br> <b>mọi thay đổi</b> </span>
-                    </div>
-                </div>
-            </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="space-header">
+          <span>
+            TĂNG CHUYỂN ĐỔI KHÁCH HÀNG MỚI
+          </span>
         </div>
-    </div>
-    <div id='sec-3'></div>
-    <div *ngIf="!isMobileResolution" class="sec-3 container" id='sec-3-1'>
-        <div class="row block-left">
-            <div class="col-6">
-                <img class="water" src="assets/business/bg-phone.svg">
-                <img class="frame" src="assets/business/frame-mobile.png">
-            </div>
-            <div class="col-6">
-                <div class="space-header">
-                    <span>
-                        TĂNG CƯỜNG DANH TIẾNG TRỰC TUYẾN
-                    </span>
-                </div>
-                <div class="space-title">
-                    <span>
-                        Thương hiệu cá nhân
-                    </span>
-                </div>
-                <div class="space-content">
-                    <span>
-                        Hãy thể hiện rõ phong cách của bạn để tạo nên thương hiệu khác biệt. Tận dụng lợi thế website
-                        GlamStyle được
-                        cá nhân hoá từ việc xây dựng hình ảnh chuyên nghiệp đến những nhận xét, cảm nhận của từng khách
-                        hàng. Đây là
-                        một trang web có thể tùy chỉnh, cho phép khách hàng tìm kiếm bạn 24/7, thậm chí không cần truy
-                        cập vào
-                        GlamStyle. Bạn cũng đừng lo lắng về tiện ích đặt chỗ trực tuyến (Booking Online), vì tính năng
-                        này đã được
-                        tích hợp tự động trong trang web cá nhân của bạn.
-                    </span>
-                </div>
-                <div class="space-btn">
-                    <span>
-                        <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
-                    </span>
-                </div>
-            </div>
+        <div class="space-title">
+          <span>
+            Tiện ích “Đặt ngay!”<br>
+            trên tài khoản mạng xã hội
+          </span>
         </div>
-        <div class='block-to-scroll' id='sec-3-2'></div>
+        <div class="space-content">
+          <span>
 
-        <div class="row block-right">
-            <div class="col-6">
-                <div class="space-header">
-                    <span>
-                        SỔ TAY ĐIỆN TỬ QUẢN LÝ LỊCH LÀM VIỆC TẤT CẢ TRONG MỘT
-                    </span>
-                </div>
-                <div class="space-title">
-                    <span>
-                        Truy cập nhật ký dễ dàng
-                    </span>
-                </div>
-                <div class="space-content">
-                    <span>
-                        Dù bạn đi đâu hay đang làm gì thì việc quản lý nhật ký làm việc của salon luôn đơn giản và dễ
-                        dàng. Bạn có
-                        thể nắm bắt lịch làm việc trong ngày, toàn bộ thông tin và lịch sử đặt hẹn của khách hàng, hiệu
-                        suất kinh
-                        doanh, v.v… chỉ với một vài cú chạm trên chiếc smartphone của bạn
-                    </span>
-                </div>
-                <div class="space-btn">
-                    <span>
-                        <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
-                    </span>
-
-                </div>
-            </div>
-            <div class="col-6">
-
-                <img class="water" src="assets/business/bg-phone.svg">
-                <img class="frame" src="assets/business/calendar.png">
-            </div>
+            lập tức mà không cần phải gọi cho tiệm của bạn vào giờ làm việc
+            Cho phép bất kỳ khách hàng nào đang lướt qua bài đăng của bạn trên Web, Facebook hoặc Instagram
+            có thể click
+            <b>“Đặt ngay”</b> mà không cần rời khỏi trang, biến tài khoản của bạn thành cửa tiệm ngay lập
+            tức. Đó là một cách
+            để người dùng có thể chuyển từ người lướt web, lướt mạng xã hội trở thành khách hàng ngay lập
+            tức mà không
+            cần phải gọi cho tiệm của bạn vào giờ làm việc
+          </span>
         </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
 
-        <div class='block-to-scroll' id='sec-3-3'></div>
-
-        <div class="row block-left">
-            <div class="col-6">
-                <img class="water" src="assets/business/bg-phone.svg">
-                <img class="frame" src="assets/business/booking-online.png">
-                <div class="socail-block">
-                    <div class="socail-group">
-                        <img src="assets/business/ic-socail01.png">
-                        <span>Web Marketplace</span>
-                    </div>
-                    <div class="socail-group">
-                        <img src="assets/business/ic-socail02.png">
-                        <span>Web Mobile</span>
-                    </div>
-                    <div class="socail-group">
-                        <img src="assets/business/ic-socail03.png">
-                        <span>Facebook</span>
-                    </div>
-                    <div class="socail-group">
-                        <img src="assets/business/ic-socail04.png">
-                        <span>Instagram</span>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="space-header">
-                    <span>
-                        KHÁCH HÀNG TỰ PHỤC VỤ 24/7
-                    </span>
-                </div>
-                <div class="space-title">
-                    <span>
-                        Booking online 24/7
-                    </span>
-                </div>
-                <div class="space-content">
-                    <span>
-                        Bạn không thể mở cửa hàng 24/7 để nhận tất cả lịch hẹn, nhưng GlamStyle sẽ giúp bạn. Chúng tôi
-                        cung cấp các
-                        công cụ để tiếp cận với khách hàng, cho phép họ tham quan cửa tiệm online của bạn, xem các dịch
-                        vụ, đọc nhận
-                        xét của các khách hàng sử dụng trước đó, đồng bộ hoá lịch làm việc của bạn. Vì thế, khách hàng
-                        có thể nhìn
-                        thấy các khung giờ trống và có thể tự đặt hẹn 24/7 mà không cần phải gọi điện thoại trực tiếp
-                        cho bạn
-                    </span>
-                </div>
-                <div class="space-btn">
-                    <span>
-                        <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
-                    </span>
-
-                </div>
-            </div>
         </div>
+      </div>
 
-        <div class='block-to-scroll' id='sec-3-4'></div>
-
-        <div class="row block-right">
-            <div class="col-6">
-                <div class="space-header">
-                    <span>
-                        TĂNG CHUYỂN ĐỔI KHÁCH HÀNG MỚI
-                    </span>
-                </div>
-                <div class="space-title">
-                    <span>
-                        Tiện ích <b>“Đặt ngay!”</b>
-                        <br>
-                        trên tài khoản mạng xã hội
-                    </span>
-                </div>
-                <div class="space-content">
-                    <span>
-
-                        lập tức mà không cần phải gọi cho tiệm của bạn vào giờ làm việc
-                        Cho phép bất kỳ khách hàng nào đang lướt qua bài đăng của bạn trên Web, Facebook hoặc Instagram
-                        có thể click
-                        <b>“Đặt ngay”</b> mà không cần rời khỏi trang, biến tài khoản của bạn thành cửa tiệm ngay lập
-                        tức. Đó là một cách
-                        để người dùng có thể chuyển từ người lướt web, lướt mạng xã hội trở thành khách hàng ngay lập
-                        tức mà không
-                        cần phải gọi cho tiệm của bạn vào giờ làm việc
-                    </span>
-                </div>
-                <div class="space-btn">
-                    <span>
-                        <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
-                    </span>
-
-                </div>
-            </div>
-            <div class="col-6">
-                <img class="water" src="assets/business/bg-phone.svg">
-                <img class="frame" src="assets/business/booking-now.png">
-            </div>
-        </div>
-
-        <div class='block-to-scroll' id='sec-3-5'></div>
-
-        <div class="row block-left">
-            <div class="col-6">
-                <img class="water" src="assets/business/bg-phone.svg">
-                <img class="frame" src="assets/business/customer-service.png">
-                <!-- <img class="image" src="assets/business/image-mobile05.png"> -->
-            </div>
-            <div class="col-6">
-                <div class="space-header">
-                    <span>
-                        GIỮ CHÂN VÀ TĂNG KHÁCH HÀNG TRUNG THÀNH
-                    </span>
-                </div>
-                <div class="space-title">
-                    <span>
-                        Quản lý và <br>
-                        chăm sóc khách hàng
-                    </span>
-                </div>
-                <div class="space-content">
-                    <span>
-                        Mỗi cuộc hẹn được cá nhân hóa để theo dõi lịch sử khách hàng, số lượng cuộc hẹn, ngày sinh nhật,
-                        ghi chú
-                        riêng tư, liệu trình làm đẹp, cũng như sở thích hay thói quen đặc biệt của khách hàng, giúp bạn
-                        giữ chân
-                        khách hàng và tăng tần suất quay trở lại của khách hàng đó
-                    </span>
-                </div>
-                <div class="space-btn">
-                    <span>
-                        <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class='block-to-scroll' id='sec-3-6'></div>
-
-        <div class="row block-right">
-            <div class="col-6">
-                <div class="space-header">
-                    <span>
-                        NHANH CHÓNG PHÁT HIỆN MỌI THAY ĐỔI
-                    </span>
-                </div>
-                <div class="space-title">
-                    <span>
-                        Thông báo tự động
-                    </span>
-                </div>
-                <div class="space-content">
-                    <span>
-                        Ứng dụng GlamStyle sẽ tự động gửi cho bạn những thông báo để cập nhật tình hình kinh doanh như:
-                        có lịch đặt
-                        chỗ mới, khách hàng thay đổi lịch hẹn, nhận xét mới từ khách hàng... bằng công cụ thông báo từ
-                        ứng dụng,
-                        email và tin nhắn SMS trên di động. Giúp bạn tiết kiệm thời gian để tập trung sáng tạo nhiều
-                        kiểu tóc mới và
-                        xử lý những việc quan trọng của doanh nghiệp mình
-                    </span>
-                </div>
-                <div class="space-btn">
-                    <span>
-                        <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
-                    </span>
-
-                </div>
-            </div>
-            <div class="col-6">
-                <img class="water" src="assets/business/bg-phone.svg">
-                <img class="frame" src="assets/business/important-notice.png">
-                <!-- <img class="image" src="assets/business/image-mobile06.png"> -->
-            </div>
-        </div>
     </div>
 
-    <div class="sec-4" id="sec-4">
 
-        <div class="container">
-            <div class="row header">
-                <div class="col-2">
+    <div class="row block-left-mobile" id="sec-3-5">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/customer-service.png">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="space-header">
+          <span>
+            GIỮ CHÂN VÀ TĂNG KHÁCH HÀNG TRUNG THÀNH
+          </span>
+        </div>
+        <div class="space-title">
+          <span>
+            Quản lý và <br>
+            chăm sóc khách hàng
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+            Mỗi cuộc hẹn được cá nhân hóa để theo dõi lịch sử khách hàng, số lượng cuộc hẹn, ngày sinh nhật,
+            ghi chú
+            riêng tư, liệu trình làm đẹp, cũng như sở thích hay thói quen đặc biệt của khách hàng, giúp bạn
+            giữ chân
+            khách hàng và tăng tần suất quay trở lại của khách hàng đó
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
 
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 title">
-                    <span>Nhận xét của chủ Salon về GlamStyle</span>
-                </div>
-                <div class="col-2">
+        </div>
+      </div>
+    </div>
 
-                </div>
+    <div class="row block-left-mobile" id="sec-3-6">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img class="water" src="assets/business/bg-phone.svg">
+        <img class="frame" src="assets/business/important-notice.png">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="space-header">
+          <span>
+            NHANH CHÓNG PHÁT HIỆN MỌI THAY ĐỔI
+          </span>
+        </div>
+        <div class="space-title">
+          <span>
+            Thông báo quan trọng
+          </span>
+        </div>
+        <div class="space-content">
+          <span>
+            Ứng dụng GlamStyle sẽ tự động gửi cho bạn những thông báo để cập nhật tình hình kinh doanh như:
+            có lịch đặt
+            chỗ mới, khách hàng thay đổi lịch hẹn, nhận xét mới từ khách hàng... bằng công cụ thông báo từ
+            ứng dụng,
+            email và tin nhắn SMS trên di động. Giúp bạn tiết kiệm thời gian để tập trung sáng tạo nhiều
+            kiểu tóc mới và
+            xử lý những việc quan trọng của doanh nghiệp mình
+          </span>
+        </div>
+        <div class="space-btn">
+          <span>
+            <button (click)="gotoSign()">ĐĂNG KÝ NGAY</button>
+          </span>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="sec-4" id="sec-4">
+
+    <div class="container">
+      <div class="row header">
+        <div class="col-2">
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 title">
+          <span>Nhận xét của chủ Salon về GlamStyle</span>
+        </div>
+        <div class="col-2">
+
+        </div>
+      </div>
+
+      <div *ngIf="!isMobileResolution" class="row body">
+        <div class="col-3">
+          <div class="item card">
+            <div class="item-header media">
+              <img class="align-self-center" src="assets/business/avatar1.png" alt=" image">
+              <div class="media-body">
+                <div class="user-name">Lê Lý</div>
+                <div class="barber-name">Lily Beauty Salon</div>
+              </div>
             </div>
-
-            <div *ngIf="!isMobileResolution" class="row body">
-                <div class="col-3">
-                    <div class="item card">
-                        <div class="item-header media">
-                            <img class="align-self-center" src="assets/business/avatar1.png" alt=" image">
-                            <div class="media-body">
-                                <div class="user-name">Lê Lý</div>
-                                <div class="barber-name">Lily Beauty Salon</div>
-                            </div>
-                        </div>
-                        <div class="item-body">
-                            <p>
-                                Tôi có thể nhận lịch hẹn của khách mọi lúc, mọi nơi mà không cần phải ở tiệm suốt như
-                                hồi trước nữa. Nhờ
-                                nền tảng GlamStyle mà doanh thu hàng tháng của tiệm tăng rõ rệt. Việc quản lý kinh doanh
-                                cũng trở nên dễ
-                                dàng, hiệu quả hơn nhiều.
-                            </p>
-                        </div>
-                        <!-- <ngb-rating rate="5" [readonly]="true" class="align-self-center">
+            <div class="item-body">
+              <p>
+                Tôi có thể nhận lịch hẹn của khách mọi lúc, mọi nơi mà không cần phải ở tiệm suốt như
+                hồi trước nữa. Nhờ
+                nền tảng GlamStyle mà doanh thu hàng tháng của tiệm tăng rõ rệt. Việc quản lý kinh doanh
+                cũng trở nên dễ
+                dàng, hiệu quả hơn nhiều.
+              </p>
+            </div>
+            <!-- <ngb-rating rate="5" [readonly]="true" class="align-self-center">
                             <ng-template let-fill="fill" let-index="index">
                                 <svg class="star" [class.filled]="fill === 100" [class.bad]="index < 5" width="25"
                                     height="25" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
@@ -477,28 +859,28 @@
                                 </svg>
                             </ng-template>
                         </ngb-rating> -->
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="item card">
-                        <div class="item-header media">
-                            <img class="align-self-center mr-3" src="assets/business/avatar2.png" alt=" image">
-                            <div class="media-body">
-                                <div class="user-name">Huỳnh Như</div>
-                                <div class="barber-name">Hair Salon Như Huỳnh</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="item card">
+            <div class="item-header media">
+              <img class="align-self-center mr-3" src="assets/business/avatar2.png" alt=" image">
+              <div class="media-body">
+                <div class="user-name">Huỳnh Như</div>
+                <div class="barber-name">Hair Salon Như Huỳnh</div>
 
-                            </div>
-                        </div>
-                        <div class="item-body">
-                            <p>
-                                Lúc trước, khách hàng của tôi thường hay phàn nàn về việc phải đợi rất lâu để được phục
-                                vụ. Nhờ tính
-                                năng đặt hẹn của GlamStyle, tôi đã giải quyết tốt vấn đề này, dễ thở hơn và mọi người
-                                cũng hài lòng,
-                                phản hồi tích cực hơn về dịch vụ của salon.
-                            </p>
-                        </div>
-                        <!-- <ngb-rating rate="5" [readonly]="true" class="align-self-center">
+              </div>
+            </div>
+            <div class="item-body">
+              <p>
+                Lúc trước, khách hàng của tôi thường hay phàn nàn về việc phải đợi rất lâu để được phục
+                vụ. Nhờ tính
+                năng đặt hẹn của GlamStyle, tôi đã giải quyết tốt vấn đề này, dễ thở hơn và mọi người
+                cũng hài lòng,
+                phản hồi tích cực hơn về dịch vụ của salon.
+              </p>
+            </div>
+            <!-- <ngb-rating rate="5" [readonly]="true" class="align-self-center">
                             <ng-template let-fill="fill" let-index="index">
                                 <svg class="star" [class.filled]="fill === 100" [class.bad]="index < 5" width="25"
                                     height="25" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
@@ -514,30 +896,30 @@
                                 </svg>
                             </ng-template>
                         </ngb-rating> -->
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="item card">
-                        <div class="item-header media">
-                            <img class="align-self-center mr-3" src="assets/business/avatar3.png" alt=" image">
-                            <div class="media-body">
-                                <div class="user-name">Phước Nguyễn</div>
-                                <div class="barber-name">PN Barber Shop</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="item card">
+            <div class="item-header media">
+              <img class="align-self-center mr-3" src="assets/business/avatar3.png" alt=" image">
+              <div class="media-body">
+                <div class="user-name">Phước Nguyễn</div>
+                <div class="barber-name">PN Barber Shop</div>
 
-                            </div>
-                        </div>
-                        <div class="item-body">
-                            <p>
-                                Trước đây, tôi mất nhiều thời gian để kết sổ sách, xem tình hình kinh doanh, và tính
-                                lương cho nhân viên
-                                mỗi tháng. Nhiều khi sổ sách bị thất lạc hay hư hỏng làm tôi rất đau đầu. Nhưng giờ tôi
-                                không phải lo
-                                nữa vì báo cáo đã được tích hợp hết trong điện thoại, khi nào cần là có ngay, rất tiện
-                                dụng và tiết kiệm
-                                thời gian!
-                            </p>
-                        </div>
-                        <!-- <ngb-rating rate="5" [readonly]="true" class="align-self-center">
+              </div>
+            </div>
+            <div class="item-body">
+              <p>
+                Trước đây, tôi mất nhiều thời gian để kết sổ sách, xem tình hình kinh doanh, và tính
+                lương cho nhân viên
+                mỗi tháng. Nhiều khi sổ sách bị thất lạc hay hư hỏng làm tôi rất đau đầu. Nhưng giờ tôi
+                không phải lo
+                nữa vì báo cáo đã được tích hợp hết trong điện thoại, khi nào cần là có ngay, rất tiện
+                dụng và tiết kiệm
+                thời gian!
+              </p>
+            </div>
+            <!-- <ngb-rating rate="5" [readonly]="true" class="align-self-center">
                             <ng-template let-fill="fill" let-index="index">
                                 <svg class="star" [class.filled]="fill === 100" [class.bad]="index < 5" width="25"
                                     height="25" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
@@ -553,25 +935,25 @@
                                 </svg>
                             </ng-template>
                         </ngb-rating> -->
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="item card">
-                        <div class="item-header media">
-                            <img class="align-self-center mr-3" src="assets/business/avatar4.png" alt=" image">
-                            <div class="media-body">
-                                <div class="user-name">Hoài Thương</div>
-                                <div class="barber-name">Tiệm tóc Thương Hair</div>
-                            </div>
-                        </div>
-                        <div class="item-body">
-                            <p>
-                                Tuyệt! Quản lý thời gian tiện lợi, hỗ trợ khách hàng đặt lịch và nhận tiền nhanh chóng.
-                                Từ ngày dùng
-                                GlamStyle công việc của tôi dễ quản lý, hiệu quả và cải thiện tốt hơn rất nhiều.
-                            </p>
-                        </div>
-                        <!-- <ngb-rating rate="5" [readonly]="true" class="align-self-center">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="item card">
+            <div class="item-header media">
+              <img class="align-self-center mr-3" src="assets/business/avatar4.png" alt=" image">
+              <div class="media-body">
+                <div class="user-name">Hoài Thương</div>
+                <div class="barber-name">Tiệm tóc Thương Hair</div>
+              </div>
+            </div>
+            <div class="item-body">
+              <p>
+                Tuyệt! Quản lý thời gian tiện lợi, hỗ trợ khách hàng đặt lịch và nhận tiền nhanh chóng.
+                Từ ngày dùng
+                GlamStyle công việc của tôi dễ quản lý, hiệu quả và cải thiện tốt hơn rất nhiều.
+              </p>
+            </div>
+            <!-- <ngb-rating rate="5" [readonly]="true" class="align-self-center">
                             <ng-template let-fill="fill" let-index="index">
                                 <svg class="star" [class.filled]="fill === 100" [class.bad]="index < 5" width="25"
                                     height="25" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
@@ -587,218 +969,462 @@
                                 </svg>
                             </ng-template>
                         </ngb-rating> -->
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
 
+      <div *ngIf="isMobileResolution" class="row body">
+        <div class="col-12">
+          <div class="item card">
+            <div class="item-header media">
+              <img class="align-self-center mr-3" src="assets/business/avatar1.png" alt=" image">
+              <div class="media-body">
+                <div class="user-name">Lê Lý</div>
+                <ngb-rating rate="5" [readonly]="true">
+                  <ng-template let-fill="fill" let-index="index">
+                    <svg class="star" [class.filled]="fill === 100" [class.bad]="index < 5" width="25" height="25"
+                      viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M9.87174 0.245282L12.5978 5.68619L18.6283 6.54528C18.8761 6.58619 19 6.79074 19 6.99528C19 7.0771 18.9587 7.15892 18.8761 7.24074L14.4978 11.5362L15.5304 17.5498C15.5717 17.7544 15.4065 17.9998 15.2 18.0407C15.1174 18.0407 15.0348 18.0407 14.9522 17.9998L9.5 15.1362L4.08913 17.9589C3.88261 18.0816 3.63478 17.9998 3.51087 17.7953C3.46957 17.7135 3.46956 17.6316 3.46956 17.5498L4.50217 11.5362L0.123913 7.28164C-0.0413043 7.11801 -0.0413043 6.87255 0.123913 6.70892C0.206522 6.6271 0.28913 6.58619 0.371739 6.58619L6.44348 5.7271L9.16957 0.286191C9.25217 0.081646 9.5 -0.000172202 9.70652 0.081646C9.74783 0.081646 9.83043 0.163464 9.87174 0.245282Z" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="19" height="18" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </ng-template>
+                </ngb-rating>
+              </div>
+            </div>
+            <div class="item-body">
+              <p>Ứng dụng giúp tôi hỗ trợ khách hàng tốt hơn, khách hàng hài lòng và quay lại rất nhiều.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="item card">
+            <div class="item-header media">
+              <img class="align-self-center mr-3" src="assets/business/avatar2.png" alt=" image">
+              <div class="media-body">
+                <div class="user-name">Huỳnh Như</div>
+                <ngb-rating rate="5" [readonly]="true">
+                  <ng-template let-fill="fill" let-index="index">
+                    <svg class="star" [class.filled]="fill === 100" [class.bad]="index < 5" width="25" height="25"
+                      viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M9.87174 0.245282L12.5978 5.68619L18.6283 6.54528C18.8761 6.58619 19 6.79074 19 6.99528C19 7.0771 18.9587 7.15892 18.8761 7.24074L14.4978 11.5362L15.5304 17.5498C15.5717 17.7544 15.4065 17.9998 15.2 18.0407C15.1174 18.0407 15.0348 18.0407 14.9522 17.9998L9.5 15.1362L4.08913 17.9589C3.88261 18.0816 3.63478 17.9998 3.51087 17.7953C3.46957 17.7135 3.46956 17.6316 3.46956 17.5498L4.50217 11.5362L0.123913 7.28164C-0.0413043 7.11801 -0.0413043 6.87255 0.123913 6.70892C0.206522 6.6271 0.28913 6.58619 0.371739 6.58619L6.44348 5.7271L9.16957 0.286191C9.25217 0.081646 9.5 -0.000172202 9.70652 0.081646C9.74783 0.081646 9.83043 0.163464 9.87174 0.245282Z" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="19" height="18" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </ng-template>
+                </ngb-rating>
+              </div>
+            </div>
+            <div class="item-body">
+              <p>Tôi có thể nhận được lịch hẹn mọi lúc, tôi cũng không cần thiết phải ở tiệm suốt như hồi
+                trước nữa.
+                <br> Nhờ có ứng dụng quản trị của GlamStyle, doanh thu hàng tháng của tôi tăng nhiều
+                hơn.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="item card">
+            <div class="item-header media">
+              <img class="align-self-center mr-3" src="assets/business/avatar3.png" alt=" image">
+              <div class="media-body">
+                <div class="user-name">Phước Nguyễn</div>
+                <ngb-rating rate="5" [readonly]="true">
+                  <ng-template let-fill="fill" let-index="index">
+                    <svg class="star" [class.filled]="fill === 100" [class.bad]="index < 5" width="25" height="25"
+                      viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M9.87174 0.245282L12.5978 5.68619L18.6283 6.54528C18.8761 6.58619 19 6.79074 19 6.99528C19 7.0771 18.9587 7.15892 18.8761 7.24074L14.4978 11.5362L15.5304 17.5498C15.5717 17.7544 15.4065 17.9998 15.2 18.0407C15.1174 18.0407 15.0348 18.0407 14.9522 17.9998L9.5 15.1362L4.08913 17.9589C3.88261 18.0816 3.63478 17.9998 3.51087 17.7953C3.46957 17.7135 3.46956 17.6316 3.46956 17.5498L4.50217 11.5362L0.123913 7.28164C-0.0413043 7.11801 -0.0413043 6.87255 0.123913 6.70892C0.206522 6.6271 0.28913 6.58619 0.371739 6.58619L6.44348 5.7271L9.16957 0.286191C9.25217 0.081646 9.5 -0.000172202 9.70652 0.081646C9.74783 0.081646 9.83043 0.163464 9.87174 0.245282Z" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="19" height="18" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </ng-template>
+                </ngb-rating>
+              </div>
+            </div>
+            <div class="item-body">
+              <p>Trước đây, khách hàng của tôi thường phải đợi rất lâu khi đến tiệm. Nhờ ứng dụng đặt hẹn,
+                khách hàng
+                của tôi không phải đợi lâu như trước, mọi người hài lòng hơn về dịch vụ của tôi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="item card">
+            <div class="item-header media">
+              <img class="align-self-center mr-3" src="assets/business/avatar4.png" alt=" image">
+              <div class="media-body">
+                <div class="user-name">Hoài Thương</div>
+                <ngb-rating rate="5" [readonly]="true">
+                  <ng-template let-fill="fill" let-index="index">
+                    <svg class="star" [class.filled]="fill === 100" [class.bad]="index < 5" width="25" height="25"
+                      viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M9.87174 0.245282L12.5978 5.68619L18.6283 6.54528C18.8761 6.58619 19 6.79074 19 6.99528C19 7.0771 18.9587 7.15892 18.8761 7.24074L14.4978 11.5362L15.5304 17.5498C15.5717 17.7544 15.4065 17.9998 15.2 18.0407C15.1174 18.0407 15.0348 18.0407 14.9522 17.9998L9.5 15.1362L4.08913 17.9589C3.88261 18.0816 3.63478 17.9998 3.51087 17.7953C3.46957 17.7135 3.46956 17.6316 3.46956 17.5498L4.50217 11.5362L0.123913 7.28164C-0.0413043 7.11801 -0.0413043 6.87255 0.123913 6.70892C0.206522 6.6271 0.28913 6.58619 0.371739 6.58619L6.44348 5.7271L9.16957 0.286191C9.25217 0.081646 9.5 -0.000172202 9.70652 0.081646C9.74783 0.081646 9.83043 0.163464 9.87174 0.245282Z" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="19" height="18" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </ng-template>
+                </ngb-rating>
+              </div>
+            </div>
+            <div class="item-body">
+              <p>Trước đây, tôi mất nhiều thời gian vào cuối tuần để kết xổ sách, xem tình hình kinh
+                doanh, và tính
+                lương cho nhân viên.
+                Nhưng giờ thì tôi không phải làm việc này nữa, bào cáo ngay tức thời. </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="sec-5 container">
-        <div class="row">
-            <div class="space-title">
-                <span>
-                    GlamStyle dùng được trên mọi thiết bị
-                </span>
-            </div>
-        </div>
-        <div>
-            <div class="col-12">
-                <img class="image" src="assets/business/device.png">
-            </div>
-        </div>
+  </div>
 
-
-
-        <div class="row">
-            <div *ngIf="!isMobileResolution" class="button-block">
-
-                <div class="video">
-                    <iframe width="70%" height="400" src="https://www.youtube.com/embed/B9P11-8q5VI" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <div *ngIf="isMobileResolution" class="button-block">
-
-
-                <div class="video">
-                    <iframe width="100%" height="300" src="" frameborder="0"
-                        src="https://www.youtube.com/embed/tgbNymZ7vqY" allow="autoplay">
-                    </iframe>
-                </div>
-            </div>
-        </div>
+  <div class="sec-5 container">
+    <div class="row">
+      <div class="space-title">
+        <span>
+          GlamStyle dùng được trên mọi thiết bị
+        </span>
+      </div>
+    </div>
+    <div>
+      <div class="col-12">
+        <img class="image" src="assets/business/device.png">
+      </div>
     </div>
 
-    <div class="sec-6 container" id='sec-6'>
-        <div class="row header">
-            <div class="col-2">
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 title">
-                <span>Trở thành đối tác trực tuyến với GlamStyle</span>
-            </div>
-            <div class="col-2">
-            </div>
+
+
+    <div class="row">
+      <div *ngIf="!isMobileResolution" class="button-block">
+
+        <div class="video">
+          <iframe width="70%" height="400" src="https://www.youtube.com/embed/B9P11-8q5VI" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="row body">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <div class="content">
-                    <span>
-                        Điền thông tin chi tiết của bạn ở đây và chúng tôi sẽ liên lạc với bạn để tư vấn miễn phí.
-                        <br>
-                        Tìm hiểu GlamStyle làm cách nào để mang lại cho bạn nhiều khách hàng hơn,
-                        <br>
-                        việc quản lý trực tuyến của bạn dễ dàng hơn.
-                    </span>
-                </div>
-                <div *ngIf="isError" class="error-content">
-                    <span>
-                        {{errorMessage}}
-                    </span>
-                </div>
-            </div>
+      </div>
 
-            <div *ngIf="!isMobileResolution" class="row form">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="row title col-12">
-                        <span>
-                            Về địa điểm
-                        </span>
-                    </div>
+      <div *ngIf="isMobileResolution" class="button-block">
 
-                    <div class="row one col-12">
-                        <input type="text" placeholder="Tên doanh nghiệp (Vd: Thịnh Barber)" [(ngModel)]="bizName">
-                    </div>
-                    <div class="row two">
-                        <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="dropdown" data-toggle="dropdown" #dropdownType aria-haspopup="true"
-                                aria-expanded="false">
-                                <img class="img-one" src="assets/business/ic-down-gray.svg">
-                                <input class="input-one" placeholder="Loại hình kinh doanh" [(ngModel)]="specialize">
 
-                                <div class="dropdown-menu space" aria-labelledby="dropdownType">
-                                    <a class="dropdown-item" *ngFor="let item of category"
-                                        (click)="chooseService(item.name)">{{item.name}}</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-2-input">
-                            <div class="dropdown" data-toggle="dropdown" id="numberEmp" aria-haspopup="true"
-                                aria-expanded="false">
-                                <img class="img-two" src="assets/business/ic-down-gray.svg">
-                                <input class="input-two" placeholder="Nhân viên" [(ngModel)]="employeeNumber">
-
-                                <div class="dropdown-menu" aria-labelledby="numberEmp">
-                                    <a class="dropdown-item" *ngFor="let item of numberEmployee"
-                                        (click)="chooseNumber(item)">{{item}}</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="row one col-12">
-                        <input placeholder="Số nhà, đường, phường" [(ngModel)]="street">
-                    </div>
-                    <div class="row two">
-                        <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="dropdown" data-toggle="dropdown" id="dropdownDistrict" aria-haspopup="true"
-                                aria-expanded="false">
-                                <img class="img-two" src="assets/business/ic-down-gray.svg">
-                                <input class="input-two" placeholder="Thành phố" [(ngModel)]="province">
-                                <div class="dropdown-menu space" aria-labelledby="dropdownDistrict">
-                                    <a class="dropdown-item" *ngFor="let item of locations"
-                                        (click)="chosseCity(item.city)">{{item.city}}</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-6 col-2-input">
-                            <div class="dropdown" data-toggle="dropdown" id="dropdownProvince" aria-haspopup="true"
-                                aria-expanded="false">
-                                <img class="img-one" src="assets/business/ic-down-gray.svg">
-                                <input class="input-one" placeholder="Quận" [(ngModel)]="district">
-                                <div class="dropdown-menu space" aria-labelledby="dropdownProvince">
-                                    <a class="dropdown-item" *ngFor="let item of districsts"
-                                        (click)="chooseDistrict(item)">{{item}}</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row one col-12">
-                        <input placeholder="Website/ Facebook" [(ngModel)]="socailLink">
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="row title col-12">
-                        <span>
-                            Về bạn
-                        </span>
-                    </div>
-                    <div class="two-right">
-                        <span class=" space">
-                            <input class="input-one" placeholder="Họ" [(ngModel)]="lastName">
-                        </span>
-                        <span>
-                            <input class="input-two" placeholder="Tên" [(ngModel)]="firstName">
-                        </span>
-
-                    </div>
-                    <div class="one">
-                        <input placeholder="Email" [(ngModel)]="email">
-                    </div>
-
-                    <div class="one">
-                        <input placeholder="Số điện thoại" [(ngModel)]="phone">
-                    </div>
-                    <div class="one-right">
-                        <div class="dropdown" data-toggle="dropdown" id="dropdownMenuOffset" aria-haspopup="true"
-                            aria-expanded="false">
-                            <input class="input-one" placeholder="Bạn biết GlamStyle từ đâu?" [(ngModel)]="src">
-                            <img class="img-one" src="assets/business/ic-down-gray.svg">
-                            <div class="dropdown-menu space" aria-labelledby="dropdownMenuOffset">
-                                <a class="dropdown-item" *ngFor="let item of srcKnow"
-                                    (click)="chooseSource(item)">{{item}}</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sub-content">
-                        <span>
-                            GlamStyle sẽ sử dụng các chi tiết bạn nhập vào đây để liên lạc với bạn qua email/ điện thoại
-                            về việc trở
-                            thành đối tác của chúng tôi.
-                        </span>
-                    </div>
-                    <div class="sub-content">
-                        <span>
-                            Bạn có thể tìm hiểu thêm về cách lưu trữ, sử dụng và bảo vệ thông tin của bạn trong
-                            <span style="text-decoration: underline;">Chính Sách Bảo Mật</span>
-                            của chúng tôi.
-                        </span>
-                    </div>
-                    <div class="btn-sign">
-                        <button (click)="signUp(socialLogin, verifyMobile)">HOÀN TẤT ĐĂNG KÝ</button>
-                    </div>
-                </div>
-            </div>
+        <div class="video">
+          <iframe width="100%" height="300" src="" frameborder="0" src="https://www.youtube.com/embed/B9P11-8q5VI"
+            allow="autoplay">
+          </iframe>
         </div>
+      </div>
     </div>
+  </div>
+
+  <div class="sec-6 container" id='sec-6'>
+    <div class="row header">
+      <div class="col-2">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 title">
+        <span>Trở thành đối tác trực tuyến với GlamStyle</span>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+    <div class="row body">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="content">
+          <span>
+            Điền thông tin chi tiết của bạn ở đây và chúng tôi sẽ liên lạc với bạn để tư vấn miễn phí.
+            <br>
+            Tìm hiểu GlamStyle làm cách nào để mang lại cho bạn nhiều khách hàng hơn,
+            <br>
+            việc quản lý trực tuyến của bạn dễ dàng hơn.
+          </span>
+        </div>
+        <div *ngIf="isError" class="error-content">
+          <span>
+            {{errorMessage}}
+          </span>
+        </div>
+      </div>
+
+      <div *ngIf="!isMobileResolution" class="row form">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="row title col-12">
+            <span>
+              Về địa điểm
+            </span>
+          </div>
+
+          <div class="row one col-12">
+            <input type="text" placeholder="Tên doanh nghiệp (Vd: Thịnh Barber)" [(ngModel)]="bizName">
+          </div>
+          <div class="row two">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+              <div class="dropdown" data-toggle="dropdown" #dropdownType aria-haspopup="true" aria-expanded="false">
+                <img class="img-one" src="assets/business/ic-down-gray.svg">
+                <input class="input-one" placeholder="Loại hình kinh doanh" [(ngModel)]="specialize">
+
+                <div class="dropdown-menu space" aria-labelledby="dropdownType">
+                  <a class="dropdown-item" *ngFor="let item of category"
+                    (click)="chooseService(item.name)">{{item.name}}</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-2-input">
+              <div class="dropdown" data-toggle="dropdown" id="numberEmp" aria-haspopup="true" aria-expanded="false">
+                <img class="img-two" src="assets/business/ic-down-gray.svg">
+                <input class="input-two" placeholder="Nhân viên" [(ngModel)]="employeeNumber">
+
+                <div class="dropdown-menu" aria-labelledby="numberEmp">
+                  <a class="dropdown-item" *ngFor="let item of numberEmployee" (click)="chooseNumber(item)">{{item}}</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row one col-12">
+            <input placeholder="Số nhà, đường, phường" [(ngModel)]="street">
+          </div>
+          <div class="row two">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+              <div class="dropdown" data-toggle="dropdown" id="dropdownDistrict" aria-haspopup="true"
+                aria-expanded="false">
+                <img class="img-two" src="assets/business/ic-down-gray.svg">
+                <input class="input-two" placeholder="Thành phố" [(ngModel)]="province">
+                <div class="dropdown-menu space" aria-labelledby="dropdownDistrict">
+                  <a class="dropdown-item" *ngFor="let item of locations"
+                    (click)="chosseCity(item.city)">{{item.city}}</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-2-input">
+              <div class="dropdown" data-toggle="dropdown" id="dropdownProvince" aria-haspopup="true"
+                aria-expanded="false">
+                <img class="img-one" src="assets/business/ic-down-gray.svg">
+                <input class="input-one" placeholder="Quận" [(ngModel)]="district">
+                <div class="dropdown-menu space" aria-labelledby="dropdownProvince">
+                  <a class="dropdown-item" *ngFor="let item of districsts" (click)="chooseDistrict(item)">{{item}}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row one col-12">
+            <input placeholder="Website/ Facebook" [(ngModel)]="socailLink">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="row title col-12">
+            <span>
+              Về bạn
+            </span>
+          </div>
+          <div class="two-right">
+            <span class=" space">
+              <input class="input-one" placeholder="Họ" [(ngModel)]="lastName">
+            </span>
+            <span>
+              <input class="input-two" placeholder="Tên" [(ngModel)]="firstName">
+            </span>
+
+          </div>
+          <div class="one">
+            <input placeholder="Email" [(ngModel)]="email">
+          </div>
+
+          <div class="one">
+            <input placeholder="Số điện thoại" [(ngModel)]="phone">
+          </div>
+          <div class="one-right">
+            <div class="dropdown" data-toggle="dropdown" id="dropdownMenuOffset" aria-haspopup="true"
+              aria-expanded="false">
+              <input class="input-one" placeholder="Bạn biết GlamStyle từ đâu?" [(ngModel)]="src">
+              <img class="img-one" src="assets/business/ic-down-gray.svg">
+              <div class="dropdown-menu space" aria-labelledby="dropdownMenuOffset">
+                <a class="dropdown-item" *ngFor="let item of srcKnow" (click)="chooseSource(item)">{{item}}</a>
+              </div>
+            </div>
+          </div>
+          <div class="sub-content">
+            <span>
+              GlamStyle sẽ sử dụng các chi tiết bạn nhập vào đây để liên lạc với bạn qua email/ điện thoại
+              về việc trở
+              thành đối tác của chúng tôi.
+            </span>
+          </div>
+          <div class="sub-content">
+            <span>
+              Bạn có thể tìm hiểu thêm về cách lưu trữ, sử dụng và bảo vệ thông tin của bạn trong
+              <span style="text-decoration: underline;">Chính Sách Bảo Mật</span>
+              của chúng tôi.
+            </span>
+          </div>
+          <div class="btn-sign">
+            <button (click)="signUp(socialLogin, verifyMobile)">HOÀN TẤT ĐĂNG KÝ</button>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="isMobileResolution" class="form">
+
+        <div class="row title col-12">
+          <span>
+            Về địa điểm
+          </span>
+        </div>
+
+        <div class="row one col-12">
+          <input type="text" placeholder="Tên doanh nghiệp (Vd: Thịnh Barber)" [(ngModel)]="bizName">
+        </div>
+
+        <div class="row two">
+          <div class="col-6">
+            <div class="dropdown" data-toggle="dropdown" id="dropdownType" aria-haspopup="true" aria-expanded="false">
+              <img class="img-one" src="assets/business/ic-down-gray.svg">
+              <input class="input-one" placeholder="Loại hình kinh doanh" [(ngModel)]="specialize">
+
+              <div class="dropdown-menu space" aria-labelledby="dropdownType">
+                <a class="dropdown-item" *ngFor="let item of category"
+                  (click)="chooseService(item.name)">{{item.name}}</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-2-input">
+            <div class="dropdown" data-toggle="dropdown" id="numberEmp" aria-haspopup="true" aria-expanded="false">
+              <img class="img-two" src="assets/business/ic-down-gray.svg">
+              <input class="input-two" placeholder="Nhân viên" [(ngModel)]="employeeNumber">
+
+              <div class="dropdown-menu" aria-labelledby="numberEmp">
+                <a class="dropdown-item" *ngFor="let item of numberEmployee" (click)="chooseNumber(item)">{{item}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row one col-12">
+          <input placeholder="Số nhà, đường, phường" [(ngModel)]="street">
+        </div>
+
+        <div class="row two">
+          <div class="col-6">
+            <div class="dropdown" data-toggle="dropdown" id="dropdownDistrict" aria-haspopup="true"
+              aria-expanded="false">
+              <img class="img-two" src="assets/business/ic-down-gray.svg">
+              <input class="input-two" placeholder="Thành phố" [(ngModel)]="province">
+              <div class="dropdown-menu space" aria-labelledby="dropdownDistrict">
+                <a class="dropdown-item" *ngFor="let item of locations"
+                  (click)="chosseCity(item.city)">{{item.city}}</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-2-input">
+            <div class="dropdown" data-toggle="dropdown" id="dropdownProvince" aria-haspopup="true"
+              aria-expanded="false">
+              <img class="img-one" src="assets/business/ic-down-gray.svg">
+              <input class="input-one" placeholder="Quận" [(ngModel)]="district">
+              <div class="dropdown-menu space" aria-labelledby="dropdownProvince">
+                <a class="dropdown-item" *ngFor="let item of districsts" (click)="chooseDistrict(item)">{{item}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row one col-12">
+          <input placeholder="Website/ Facebook" [(ngModel)]="socailLink">
+        </div>
+
+
+        <div class="row title col-12">
+          <span>
+            Về bạn
+          </span>
+        </div>
+
+        <div class="row two-right-mobile">
+          <div class="col-6">
+            <input class="input-one" placeholder="Họ" [(ngModel)]="lastName">
+          </div>
+
+          <div class="col-6">
+            <input class="input-2" placeholder="Tên" [(ngModel)]="firstName">
+          </div>
+        </div>
+
+        <div class="row one col-12">
+          <input placeholder="Email" [(ngModel)]="email">
+        </div>
+
+        <div class="row one col-12">
+          <input placeholder="Số điện thoại" [(ngModel)]="phone">
+        </div>
+        <div class="row one-right-mobile col-12">
+          <div class="dropdown dropdown-full" data-toggle="dropdown" id="dropdownMenuOffset" aria-haspopup="true"
+            aria-expanded="false">
+            <input class="input-one" placeholder="Bạn biết GlamStyle từ đâu?" [(ngModel)]="src">
+            <img class="img-one" src="assets/business/ic-down-gray.svg">
+            <div class="dropdown-menu space" aria-labelledby="dropdownMenuOffset">
+              <a class="dropdown-item" *ngFor="let item of srcKnow" (click)="chooseSource(item)">{{item}}</a>
+            </div>
+          </div>
+        </div>
+        <div class="row sub-content col-12">
+          <span>
+            GlamStyle sẽ sử dụng các chi tiết bạn nhập vào đây để liên lạc với bạn qua email/ điện thoại về
+            việc trở
+            thành đối tác của chúng tôi.
+          </span>
+        </div>
+        <div class="row sub-content col-12">
+          <span>
+            Bạn có thể tìm hiểu thêm về cách lưu trữ, sử dụng và bảo vệ thông tin của bạn trong Chính Sách
+            Bảo Mật của
+            chúng tôi.
+          </span>
+        </div>
+        <div class="btn-sign">
+          <button (click)="signUp(socialLogin, verifyMobile)">HOÀN TẤT ĐĂNG KÝ</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
 
 
 <ng-template #completedSignUp let-modal>
-    <!-- <app-completed-modal></app-completed-modal> -->
+  <!-- <app-completed-modal></app-completed-modal> -->
 </ng-template>
 
 <ng-template #socialLogin let-modal>
-    <!-- <app-login></app-login> -->
+  <!-- <app-login></app-login> -->
 </ng-template>
 
 <ng-template #verifyMobile let-modal>
-    <!-- <app-verify-mobile-host [user]="user"></app-verify-mobile-host> -->
+  <!-- <app-verify-mobile-host [user]="user"></app-verify-mobile-host> -->
 </ng-template>
 
 <ng-template #verifyErr let-modal>
-    <!-- <app-verify-error></app-verify-error> -->
+  <!-- <app-verify-error></app-verify-error> -->
 </ng-template>

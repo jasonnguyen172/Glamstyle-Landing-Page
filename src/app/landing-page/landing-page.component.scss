@@ -14,8 +14,8 @@
         border: 1px solid #3f3f3f;
     }
 }
-@media (max-width: 374.98px) {
 
+@media (min-width: 320px) and (max-width: 374.98px) {
     .container-a {
         // top: 40px !important;
 
@@ -1196,67 +1196,101 @@
             }
         }
 
-        // .menu-mobile {
-        //     text-align: right;
+        .menu-mobile {
+            text-align: right;
+            
+            .dropdown-toggle::after { 
+                content: none; 
+            }
 
-        //     .btn-secondary {
-        //         background: transparent;
-        //         border: none !important;
-        //         outline: none !important;
-        //         margin-left: 32px;
-        //         font-family: "iCielAvantGardeGothic-Book";
-        //         font-size: 14px;
-        //         font-weight: 500;
-        //         font-style: normal;
-        //         font-stretch: normal;
-        //         line-height: normal;
-        //         letter-spacing: normal;
-        //         color: #ffffff;
-        //     }
-        //     .btn-secondary:hover {
-        //         color: #fc4945;
-        //         border: none !important;
-        //         outline: none !important;
-        //         outline-color: transparent !important;
+            .dropdown-item {
+                text-align: center;
+                .btn-secondary {
+                    background: #f3f3f3;
+                    border: none !important;
+                    outline: none !important;
+                    min-width: 68px;
+                    height: 14px;
+                    width: 98px;
+                    height: 33px;
+                    font-family: "iCielAvantGardeGothic";
+                    font-size: 14px;
+                    font-weight: 500;
+                    padding: 4px;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #70396d;
+                    border-radius: 3px;
+                }
+                
+                .btn-secondary:hover {
+                    color: #fc4945;
+                    border: none !important;
+                    outline: none !important;
+                    outline-color: transparent !important;
+                }
 
-        //     }
+            }
 
-        //     .btn-primary {
-        //         background: #f3f3f3;
-        //         border: none !important;
-        //         outline: none !important;
-        //         min-width: 68px;
-        //         height: 14px;
-        //         margin-left: 32px;
-        //         width: 98px;
-        //         height: 33px;
-        //         font-family: "iCielAvantGardeGothic";
-        //         font-size: 14px;
-        //         font-weight: 500;
-        //         padding: 4px;
-        //         font-style: normal;
-        //         font-stretch: normal;
-        //         line-height: normal;
-        //         letter-spacing: normal;
-        //         color: #70396d;
-        //         border-radius: 3px;
-        //     }
+            .btn-secondary {
+                background: transparent;
+                border: none !important;
+                outline: none !important;
+                // margin-left: 32px;
+                font-family: "iCielAvantGardeGothic-Book";
+                font-size: 14px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+            }
+            .btn-secondary:hover {
+                color: #fc4945;
+                border: none !important;
+                outline: none !important;
+                outline-color: transparent !important;
+            }
 
-        //     .btn-primary:hover {
-        //         background: #fc4945;
-        //         border: none !important;
-        //         outline: none !important;
-        //         outline-color: transparent !important;
-        //     }
+            .btn-primary {
+                background: #f3f3f3;
+                border: none !important;
+                outline: none !important;
+                min-width: 68px;
+                height: 14px;
+                // margin-left: 32px;
+                width: 98px;
+                height: 33px;
+                font-family: "iCielAvantGardeGothic";
+                font-size: 14px;
+                font-weight: 500;
+                padding: 4px;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #70396d;
+                border-radius: 3px;
+            }
 
-        //     .full-width {
-        //         top: 32px;
-        //         left: -50px;
-        //         width: 100%;
-        //         position: absolute;
-        //         text-align: right;            
-        //     }
-        // }
+            .btn-primary:hover {
+                background: #fc4945;
+                border: none !important;
+                outline: none !important;
+                outline-color: transparent !important;
+            }
+
+            .full-width {
+                top: 32px;
+                left: 50px;
+                width: 100%;
+                position: absolute;
+                text-align: right;            
+            }
+        }
 
         .menu {
             text-align: right;
@@ -1485,9 +1519,9 @@
             // position: relative;
             margin-top: 16px;
             position: absolute;
-            left: 92px;
+      
             top: 20px;
-            text-align: left;
+      
             span {
                 font-family: 'iCielAvantGardeGothic-SemBd';
                 font-size: 16px;
@@ -1501,10 +1535,9 @@
             text-align: center;
             margin-top: 24px;
             position: absolute;
-            left: 88px;
-            width: 80%;
+            
             top: 12px;
-            text-align: left;
+            
             span {
                 font-family: 'iCielAvantGardeGothic-SemBd';
                 font-size: 16px;
@@ -1732,13 +1765,17 @@
     
             .water {
                 height: 270px;
+                width: 100%;
             }
     
             .frame {
                 height: 375px;
-                top: -40px;
+                // top: -40px;
                 position: absolute;
-                left: 30%;
+                // left: 20vw;
+                left: 50%;
+		        top: 50%;
+		        transform: translate(-50%, -50%);
             }
     
             .image-1 {

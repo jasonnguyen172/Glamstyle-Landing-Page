@@ -53,15 +53,15 @@ export class LandingPageComponent implements OnInit, AfterViewInit {
 
   // tslint:disable-next-line:quotemark
 
-  // @HostListener('window:resize', ['$event'])
-  // onResizeZ(event) {
-  //   // console.log('on resize = ' +  event.target.innerWidth);
-  //   if (event.target.innerWidth >= 992) {
-  //     this.isMobileResolution = false;
-  //   } else {
-  //     this.isMobileResolution = true;
-  //   }
-  // }
+  @HostListener('window:resize', ['$event'])
+  onResizeZ(event) {
+    // console.log('on resize = ' +  event.target.innerWidth);
+    if (event.target.innerWidth >= 992) {
+      this.isMobileResolution = false;
+    } else {
+      this.isMobileResolution = true;
+    }
+  }
 
 
   @HostListener('window:scroll', [])
@@ -103,11 +103,11 @@ export class LandingPageComponent implements OnInit, AfterViewInit {
   ngOnInit() {
     console.log(this.category)
     this.onWindowScroll();
-    // if (window.outerWidth >= 992) {
-    //   this.isMobileResolution = false;
-    // } else {
-    //   this.isMobileResolution = true;
-    // }
+    if (window.outerWidth >= 992) {
+      this.isMobileResolution = false;
+    } else {
+      this.isMobileResolution = true;
+    }
     
     // check login
     // if (localStorage.getItem('user') === undefined || localStorage.getItem('user') === null) {
